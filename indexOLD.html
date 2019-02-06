@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ebec Challenge Coimbra 2018">
+  <meta name="keywords" content="ebec,ebec challenge, coimbra,2018, best, engenharia, competição, challenge">
+  <meta name="author" content="BEST EBEC CHALLENGE 2018 COIMBRA">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="images/icon.png">
+
+  <title>EBEC Challenge Coimbra 2018 - European BEST Engineering Competition</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Tauri" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://malsup.github.io/jquery.cycle.lite.js"></script>
+  <script src="scripts/flipclock.js"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/flipclock.css">
+  <script>
+    function exitVideo(){
+      window.location.href = "home-pt.html";
+    }
+  </script>
+</head>
+<body>
+<div class="lingua" style="background-color: #5c84cc">
+    <p style="margin: 0;"> <a id="linguaPT" class="lingactive" href="index.html">PT</a> / <a id="linguaENG" class="linginactive" href="index-eng.html">ENG</a></p>
+  </div>
+
+<div id="popUp" style="width: 100%; height: 100vh; background-color: #5e6363">
+  <center>
+  <div id="divVideo">
+  <video autoplay id="videoOpen" controls="true">
+    <source src="teaser_v2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  </div>
+  </center>
+
+  <div id="exitVideo">
+    <h2 onclick="exitVideo();" id="handH2" style="color: #eea035; text-decoration-style: underline;"> Seguir para o site >>> </h2>
+  </div>
+
+  <div id="setaContactVideo">
+    <a href="#footer">
+    <img src="images/downArrow.png" style="height: auto; width:8%">
+    </a>
+  </div>
+</div>
+ <footer id="footer">
+    <div id="contacts-container">
+    <p id="contactosTitle">Contactos: </p>
+      
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> Jessica Carvalho </b></p>
+          <p class="position"> Organizadora Principal </p>
+          <p><a href="mailto:mo@example.com"> jessica.lfcarvalho@gmail.com </a></p>
+          <p> 936267530 </p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> Carolina Carvalho </b></p>
+          <p class="position"> Responsável pelos Participantes </p>
+          <p><a href="mailto:pr@example.com"> carolina.leite.montezuma@gmail.com </a></p>
+          <p> 912790096 </p>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> António Louro </b></p>
+          <p class="position"> Presidente </p>
+          <p><a href="mailto:pr@example.com"> amsantoslouro@gmail.com </a></p>
+          <p> 914048812 </p>
+        </div>
+      </div>
+
+      <div id="contactBest" class="contact">
+          <a target="_blank" href="http://best.uc.pt/"><img id="bestContact" src="images/footer/best_logo.png"></a>
+
+
+          <div id="iconDiv">
+          <a target="_blank" href="https://www.facebook.com/BESTCoimbra/"><img class="iconSocial" src="images/footer/face_logo.png"></a>
+          <a target="_blank" href="https://www.instagram.com/bestcoimbra/"><img class="iconSocial" src="images/footer/insta_logo.png"></a>
+          <a target="_blank" href="https://www.linkedin.com/company/11337545/"><img class="iconSocial" src="images/footer/linkedin_logo.png"></a>
+          </div>
+
+
+          <div id="outrosEventos">
+          <p><b> Outros eventos: </b></p>
+          <a target="_blank" href="http://www.bewcoimbra.pt"><img id="bewLogo" src="images/footer/bew_logo.png"></a>
+          </div>
+    </div>
+
+    </div>
+
+  </footer>
+
+</body>
+<script src="scripts/script1.js"></script>
+
+</html>

@@ -1,0 +1,79 @@
+#equipa{
+    padding-top: 10vh;
+    width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.main h1 {
+    font-size: 170%;
+    margin-bottom: 4vh;
+    font-family: 'Lato';
+    font-weight: bolder;
+    color: #3b3b3b;
+}
+
+.pessoa, .pessoa2 {
+    position: relative;
+    line-height: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 1vh 2vw 2.5vh 2vw;
+    text-align: center;
+}
+
+.pessoa img {
+    border-radius: 5px;
+    max-height: 160px;
+    max-width: 160px;
+    border: 3px solid #adadad;
+}
+
+.pessoa2 img {
+    border-radius: 5px;
+    max-height: 130px;
+    max-width: 120px;
+    border: 3px solid #adadad;
+
+}
+
+.nome p {
+    font-size: 80%;
+    padding: 10px 0px;
+    line-height: 1.6em;
+}
+
+#alexblin {
+    padding-bottom: 20px;
+
+}
+
+h3{color: #6a9643;}
+
+.nome p:first-child {padding-top:20px;    line-height: 0em;
+}
+
+.nome2 {
+    padding: 15px 0px;
+    font-size: 10pt;
+}
+
+#tam { line-height: 1.6em;  width: 192px; }
+
+.nome2 p {
+    font-size: 90%;
+    padding: 10px 0px;
+}
+
+.thanku{ margin: auto;
+    display: block;
+    width: 80vw; }
+
+/*QUERIES*/
+
+@media screen and (max-width: 520px) {
+    .apoio img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+}

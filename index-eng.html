@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ebec Challenge Coimbra 2018">
+  <meta name="keywords" content="ebec,ebec challenge, coimbra,2018, best, engenharia, competição, challenge">
+  <meta name="author" content="BEST EBEC CHALLENGE 2018 COIMBRA">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="images/icon.png">
+
+  <title>EBEC Challenge Coimbra 2018 - European BEST Engineering Competition</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Tauri" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://malsup.github.io/jquery.cycle.lite.js"></script>
+  <script src="scripts/flipclock.js"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/flipclock.css">
+
+</head>
+<body>
+
+<div id="popUp">
+
+</div>
+<nav id="header">
+    <select id="selectYear" onchange="BoxAnos(this.selectedIndex)">
+      <option value="2018">2018</option>
+      <option value="2019">2017</option>
+    </select>
+
+    <div id="links_header">
+      <div>
+        <h2 class="link_header"><a id="homeNav" href="#logo">EBEC CHALLENGE 2018</a></h2>
+      </div>
+      <div>
+        <h2 class="link_header"><a id="compNav" href="#introducaoSlide">Competition</a></h2>
+      </div>
+      <div>
+        <h2 class="link_header"><a id="equipaNav" href="#equipa">Team</a></h2>
+      </div>
+      <div>
+        <h2 class="link_header"><a id="partnersNav" href="#emp">Partners</a></h2>
+      </div>
+      <div>
+        <h2 class="link_header"><a id="contactosNav" href="#footer">Contacts</a></h2>
+      </div>
+    </div>
+    <div class="lingua">
+        <p> <a id="linguaPT" class="linginactive" href="index.html">PT</a> / <a id="linguaENG" class="lingactive" href="index-eng.html">ENG</a></p>
+    </div>
+
+     <img src="images/logo.png" alt="Icon de menu dropdown" id="icon_menu_dropdown" onclick="dropDown()">
+
+    <div id="menu_dropdown">
+      <h2 class="link_dropdown" ><a href="#logo" onclick="clickDropdown()">EBEC CHALLENGE 2018</a></h2>
+      <h2 class="link_dropdown" ><a href="#introducaoSlide" onclick="clickDropdown()">Competition</a></h2>
+      <h2 class="link_dropdown" ><a href="#equipa" onclick="clickDropdown()">Team</a></h2>
+      <h2 class="link_dropdown" ><a href="#emp" onclick="clickDropdown()">Partners</a></h2>
+      <h2 class="link_dropdown" ><a href="#footer" onclick="clickDropdown()">Contacts</a></h2>
+    </div>
+  </nav>
+
+  <!-- style="display: none;"-->
+  <div id="logo">
+  <div id="slideUnderLogo">
+    <img class="picsBackground" src="images/imgSlide/slide1.png" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide2.jpg" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide3.png" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide4.jpg" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide5.png" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide6.png" style="height: auto; width:100vw">
+    <img class="picsBackground" src="images/imgSlide/slide7.png" style="height: auto; width:100vw">
+  </div>
+  <center>
+   <div id="imageLogo">
+    <div id="backLogo" style="width: 60%;height: 25%; background-color:rgba(255, 255, 255, 0.8);">
+    <img src="images/EBEC_Challenge_Home.png" style="height: auto; width:80%">
+    </div>
+  </div>
+  <div class="clock">
+    </div> 
+  <div id="setaDown">
+    <a href="#introducaoSlide">
+    <img src="images/downArrow.png" style="height: auto; width:5%">
+    </a>
+  </div>
+  </center>
+  </div>
+
+  <center>
+  <div id="introducao" style="width:80%">
+    <h1 id="introducaoSlide">EBEC Challenge Coimbra</h1>
+    <h2>2nd, 3rd, & 4th of March</h2>
+    <p style="text-align: left" class="firstP">EBEC (European BEST Engineering Competition) Challenge is a 24H engineering competition that is totally free and open to all FCTUC students in which they are challenged to solve real life problems assigned by companies and to develop their soft/hard skills.It has two distinct categories: <i>Case Study</i> and <i>Team Design</i>, a theoretical and a practical format, respectively. 
+    </p>
+    <p style="text-align: left">During the competition the students will be in direct contact with company members and university professors that will support and aid the teams in order to help with their problems. In the end, the participants will present their projects to a jury constituted by Engineers, Professors and Students, that will pick the winner in each category.</p>
+     <p style="text-align: left"> The winners will advance to the final fase - <a style="color: #eea035;"href="http://ebecportugal.pt/" target="_blank">EBEC Challenge Portugal</a></p>
+  </div>
+  </center>
+
+
+  <div id="Competicao" style="width: 100%;">
+    <div id="caseStudy">
+    <h1>Case Study</h1>
+    <div id="caixaCS" >
+    <p style="padding-top: 5%;">The category of Case Study consists in solving two theoretical problems assigned by a company,  the students have to find achievable and efficient solutions that are applicable on a daily basis to solve those problems.</p>
+    </div>
+    </div>
+    <div id="teamDesign">
+    <h1>Team Design</h1>
+    <div id="caixaTD">
+    <p style="padding-top: 5%;">The category of Team Design consists in the creation of a prototype that solves a problem assigned by a company. It´s a practical problem and the students have a limited amount of materials that they can use.
+    </p>
+    </div>
+    </div>
+    <div id="faq">
+        <div id="b1">
+          <p> The competition is open to all students that are enrolled in FCTUC.</p>
+        </div>
+        <div id="a1" onclick="">
+          <p> To whom </p>
+        </div>
+
+        <div id="b2">
+          <p> The competition, meals and host are totally free, but we have limited spots! </p>
+        </div>
+        <div id="a2" onclick="">
+          <p> Expenses </p>
+        </div>
+	<a href="https://drive.google.com/open?id=1DsRAKqUygcS6Dift5MpRs6Og8Vfe8HNC&usp=sharing" target="_blank">
+        <div id="b3">
+          <p> The competition will occur in the Departaments of Eng. Eletrotécnica e Computadores and Eng. Informática.<br> Click Here!</p>
+        </div>
+        <div id="a3" onclick="">
+          <p> Location</p>
+        </div>
+        </a>
+        <div id="b4">
+          <p> Bring your sleeping bag because you will have a long way until you reach a solution! We will provide mattresses and host during the competition.</p>
+        </div>
+        <div id="a4" onclick="">
+          <p> Accommodation</p>
+        </div>
+        <div id="b5">
+          <p> Besides Coffee Breaks, BEST Coimbra will also provide the dinners and lunchs during the competition.</p>
+        </div>
+        <div id="a5" onclick="">
+          <p> Meals</p>
+        </div>
+        <div id="b6">
+          <p> The competition will last 24H and the students should be within the premises until they deliver the final project. </p>
+        </div>
+        <div id="a6" onclick="">
+          <p>Duration</p>
+        </div>
+        <div id="b7">
+          <p>Registrations closed.</p>
+        </div>
+        <div id="a7" onclick="">
+          <p>Registration</p>
+        </div>
+        <div id="b8">
+          <p> We will have some surprises for the participants and winners... Don´t miss it!</p>
+        </div>
+        <div id="a8" onclick="">
+          <p>Prizes</p>
+        </div>
+    </div>
+
+
+     <center>
+     <h1 id="planeamento" style="margin-top: 100px;">What we have planned for you</h1>
+     <img style="width: 90%;" src="images/Planeamento.png">
+      
+      <h2 style="margin-top: 20px;">Here are the <a id="reg" href="REGULAMEN7O_v2r.pdf" style="color: #eea035;" target="_blank"> regulations</a>!</h2>
+
+    </div>
+    </center>
+
+   </div>
+
+  <center>
+  <div id="equipa" style="width: 100%;">
+    <h1>Team</h1>
+        <div class="teamFoto">
+            <img src="images/bestteam/jessica_carvalho.jpg" alt="membroequipa">
+            <div class="nome" id="MOTeam">
+                <p><b> Jessica Carvalho </b></p>          
+                <p> Main Organizer </p>
+            </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/francisco_costa.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Francisco Costa </b></p>          
+            <p> Public Relations Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/francisco_bento.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Francisco Bento </b></p>          
+            <p> Public Relations Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/joao_duarte.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> João Duarte </b></p>        
+            <p> Corporate Relations Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/tiago_cascais.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Tiago Cascais </b></p>          
+            <p>  Logistics Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+           <img src="images/bestteam/beatriz_pratas.jpg" alt="membroequipa">
+           <div class="nome">
+             <p><b> Beatriz Pratas </b></p>        
+             <p> Design Responsible </p>
+            </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/francisco_sousa.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Francisco Sousa </b></p>          
+            <p> IT Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/filipe_miranda.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Filipe Miranda </b></p>          
+            <p> Human Relations Responsible </p>
+          </div>
+        </div>
+          <div class="teamFoto">
+          <img src="images/bestteam/carolina_carvalho.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Carolina Carvalho </b></p>          
+            <p> Participants Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/mafalda_viana.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Mafalda Viana </b></p>          
+            <p> Golden Cogwheel Responsible </p>
+          </div>
+        </div>
+	<div class="teamFoto">
+          <img src="images/bestteam/francisco_valente.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Francisco Valente </b></p>          
+            <p> Social Responsible</p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/raquel_chaves.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Raquel Chaves </b></p>          
+            <p> CS Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/maria_alves.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Maria Alves </b></p>          
+            <p> Case Study </p>
+          </div>
+        </div>
+         <div class="teamFoto">
+          <img src="images/bestteam/ines_barreto.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Inês Barreto </b></p>          
+            <p> Case Study </p>
+          </div>
+        </div>
+         <div class="teamFoto">
+          <img src="images/bestteam/joao_manuel.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> João Manuel </b></p>          
+            <p> TD Responsible </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/bernardo_freire.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Bernardo Freire </b></p>          
+            <p> Team Design </p>
+          </div>
+        </div>
+        <div class="teamFoto">
+          <img src="images/bestteam/henrique_mota.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Henrique Mota </b></p>          
+            <p> Team Design </p>
+          </div>
+        </div>
+  </div>
+  </center>
+
+  <center>
+  <div id="juris" style="width: 100%;">
+    <h1>Juries</h1>
+    <div id="juri_ESABIC">
+      <h2>Case Study I - ESA BIC</h2>
+
+        <div class="teamFoto">
+          <img src="images/juris/foto_CarlaDuarte.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Carla Duarte </b></p>          
+            <p> Innovation Manager of</p><p> ESA BIC </p>
+            <a target="_blank" href="https://www.linkedin.com/in/carla-duarte-24001942"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+          </div>
+        </div>
+
+        <div class="teamFoto">
+          <img src="images/juris/foto_MiguelMorgado.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Miguel Morgado </b></p>          
+            <p> Coordinator of the Doctorate Program </p><p>in Biomedical Engineering of UC </p>
+            <a target="_blank" href="https://www.linkedin.com/in/antónio-miguel-morgado-a72b214/"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+          </div>
+        </div>
+
+        <div class="teamFoto">
+          <img src="images/juris/foto_JoaquimPires.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Joaquim Norberto Pires </b></p>          
+            <p> Professor of the </p><p>University of Coimbra </p>
+            <a target="_blank" href="https://www.linkedin.com/in/norberto/"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+          </div>
+        </div>
+
+
+    </div>
+    <div id="juri_CaseStudy">
+      <h2>Case Study II</h2>
+
+      <div class="teamFoto">
+        <img src="images/juris/foto_PauloCoelho.jpg" alt="membroequipa">
+        <div class="nome">
+          <p><b> Paulo Coelho </b></p>          
+          <p> Assistant Professor,</p><p> University of Coimbra </p>
+          <a target="_blank" href="http://www.uc.pt/fctuc/dec/pessoas/docentes1/paulocoelho"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+        </div>
+      </div>
+      <div class="teamFoto">
+        <img src="images/juris/foto_GracaCarvalho.jpg" alt="membroequipa">
+        <div class="nome">
+          <p><b> Maria da Graça Carvalho </b></p>          
+          <p> Professor in the Department of Chemical Engineering and </p><p>deputy director of FCTUC, with the Academic Affairs Department </p>
+          <a target="_blank" href="http://www.uc.pt/fctuc/deq/pessoas/docentes/maria_carvalho"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+        </div>
+      </div>
+	<div class="teamFoto">
+          <img src="images/bestteam/raquel_chaves.jpg" alt="membroequipa">
+          <div class="nome">
+            <p><b> Raquel Chaves </b></p>          
+            <p> Case Study </p><p> Responsible </p>
+	    <a target="_blank"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+          </div>
+        </div>
+
+
+
+    </div>
+    <div id="juri_teamDesign">
+      <h2>Team Design</h2>
+      <div class="teamFoto">
+        <img src="images/juris/foto_CarlosViegas.jpg" alt="membroequipa">
+        <div class="nome">
+          <p><b> Carlos Viegas </b></p>          
+          <p> Assistant Guest Professor at the</p><p> Department of Mechanical Engineering </p>
+          <a target="_blank" href="www.linkedin.com/in/carlosviegas89"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+        </div>
+      </div>
+       <div class="teamFoto">
+        <img src="images/juris/foto_HumbertoJorge.jpg" alt="membroequipa">
+        <div class="nome">
+          <p><b> Humberto Jorge </b></p>          
+          <p> Director of the Department of Electrical </p><p>and Computer Engineering of UC </p>
+          <a target="_blank" href="https://www.uc.pt/en/org/inescc/people/humberto_jorge"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+        </div>
+      </div>
+      <div class="teamFoto">
+        <img src="images/juris/foto_JoseAlmeida.jpg" alt="membroequipa">
+        <div class="nome">
+          <p><b> José Lopes de Almeida </b></p>          
+          <p> Assistant Professor, Department of </p><p>Civil Engineering, University of Coimbra </p>
+          <a target="_blank" href="http://www.uc.pt/fctuc/dec/pessoas/docentes1/josepaulolopesdealmeida"><img style="width:25px; border-width: 0px;" src="images/footer/linkedin_logo.png"></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </center>
+
+  <center>
+  <div id="emp">
+    <h1>Annual Partners</h1>
+    <a target="_blank" href="https://www.blue-infinity.com/"><img class="partBig" src="images/partners/logo_blueinfinity.png"></a>
+    <a target="_blank" href="https://www.bettertech.pt/"><img class="partBig" src="images/partners/logo_bettertech.png"></a>
+    <br>
+    <a target="_blank" href="https://www.criticalsoftware.com/pt/homepage"><img class="partBig" id="crit" src="images/partners/logo_critical.png"></a>
+    <a target="_blank" href="http://www.itgrow.pt/pt/inicio"><img class="partBig" src="images/partners/logo_itgrow.png"></a>
+    <br>
+    <a target="_blank" href="http://space.ipn.pt/"><img class="partBig" src="images/partners/logo_esa.png"></a>
+    <img class="partBig" src="images/partners/logo_cofinanciado.png">
+
+
+    <h1>Institutional Partners</h1>
+    <a target="_blank"><img id="ipdj" src="images/partners/logo_ipdj.png"></a>
+    <a target="_blank"><img id="fctuc" src="images/partners/logo_FCTUC.png"></a><br>
+    <a target="_blank"><img id="fctuc" src="images/partners/logo_dei.png"></a>
+    <a target="_blank"><img id="fctuc" src="images/partners/logo_deec.png"></a>    
+
+    <h1>Previous Partners</h1>
+    <a target="_blank" href="http://www.bluecover.pt/"><img class="partLittle" src="images/partners/logo_bluecover.png"></a>
+    <a target="_blank" href="http://connect-robotics.com/"><img class="partLittle" src="images/partners/logo_connRobotics.png"></a>
+    <a target="_blank" href="https://www.microsoft.com/pt-pt"><img class="partLittle" src="images/partners/logo_microsoft.png"></a>
+
+  </div>
+  </center>
+
+  <footer id="footer">
+    <div id="contacts-container">
+    <p id="contactosTitle">Contacts: </p>
+      
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> Jessica Carvalho </b></p>
+          <p class="position"> Main Organizer </p>
+          <p><a href="mailto:mo@example.com"> jessica.lfcarvalho@gmail.com </a></p>
+          <p> 936267530 </p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> Carolina Carvalho </b></p>
+          <p class="position"> Participants Responsible </p>
+          <p><a href="mailto:pr@example.com"> carolina.leite.montezuma@gmail.com </a></p>
+          <p> 912790096 </p>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact-text">
+          <p><b> António Louro </b></p>
+          <p class="position"> President </p>
+          <p><a href="mailto:pr@example.com"> amsantoslouro@gmail.com </a></p>
+          <p> 914048812 </p>
+        </div>
+      </div>
+
+      <div id="contactBest" class="contact">
+          <a target="_blank" href="http://best.uc.pt/"><img id="bestContact" src="images/footer/best_logo.png"></a>
+
+
+          <div id="iconDiv">
+          <a target="_blank" href="https://www.facebook.com/BESTCoimbra/"><img class="iconSocial" src="images/footer/face_logo.png"></a>
+          <a target="_blank" href="https://www.instagram.com/bestcoimbra/"><img class="iconSocial" src="images/footer/insta_logo.png"></a>
+          <a target="_blank" href="https://www.linkedin.com/company/11337545/"><img class="iconSocial" src="images/footer/linkedin_logo.png"></a>
+          </div>
+
+
+          <div id="outrosEventos">
+          <p><b> Other events: </b></p>
+          <a target="_blank" href="http://www.bewcoimbra.pt"><img id="bewLogo" src="images/footer/bew_logo.png"></a>
+          </div>
+    </div>
+
+    </div>
+
+  </footer>
+</div>
+
+</body>
+<script src="scripts/script1.js"></script>
+
+</html>

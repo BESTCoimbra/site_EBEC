@@ -1,0 +1,19 @@
+#apoio {
+   padding: 0vh 0vw;
+   padding-bottom: 2vh;
+}
+
+#apoio h1 {
+   margin-top: 10vh;
+   font-size: 140%;
+}
+
+#apoio {
+   position: relative;
+   padding: 2vh 2vw;
+   width: 80vw;
+   text-align: center;
+   margin: auto;
+}
+
+#apoio img{ width: 80vw;}

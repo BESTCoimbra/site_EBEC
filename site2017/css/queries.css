@@ -1,0 +1,580 @@
+    #hamburgermenu h1{width: 80vw;}
+
+@media screen and (max-width: 730px) {
+   #b1 p,
+   #b2 p,
+   #b3 p,
+   #b4 p,
+   #b5 p,
+   #b6 p,
+   #b7 p,
+   #b8 p {
+      font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   #teamdesigntexto p,
+   #casestudytexto p {
+      font-size: 15px;
+   }
+   #info {
+    margin-top: 10vh;
+}
+}
+
+
+@media screen and (max-width: 800px) {
+#info {
+    width: 100vw;
+    height: 12vh;
+    transition: all 300ms ease;
+    background-color: whitesmoke;
+}
+
+#info p {
+    padding: 0 4vw;
+    padding-top: 2.5vh;
+    font-size: 110%;
+    width: 280px;
+    margin: auto;
+    color: #CCC;
+}
+
+#info a {
+    text-decoration:underline;
+        color: #CCC;
+
+}
+}
+
+
+@media screen and (max-width:1070px) {
+
+  #inicio {
+    padding-top: 3vh;    
+    }
+    
+   #horario img {
+      padding-top: 5vh;
+   }
+   #informacoes {
+      overflow: visible;
+      padding: 5vh 6vw;
+      padding-bottom: 25vh;
+      margin-top: 0px;
+   }
+    
+   #a1,
+   #b1 {
+      width: 27vw;
+   }
+   #a2,
+   #b2 {
+      width: 27vw;
+      margin-left: 30vw;
+   }
+   #a3,
+   #b3 {
+      width: 27vw;
+      margin-left: 60vw;
+   }
+   #a4,
+   #b4 {
+      width: 27vw;
+      margin-left: 0vw;
+      margin-top: 30vh;
+   }
+   #a5,
+   #b5 {
+      width: 27vw;
+      margin-left: 30vw;
+      margin-top: 30vh;
+   }
+   #a6,
+   #b6 {
+      width: 27vw;
+      margin-left: 60vw;
+      margin-top: 30vh;
+   }
+   #a7,
+   #b7 {
+      width: 27vw;
+      margin-left: 15vw;
+      margin-top: 60vh;
+   }
+    
+   #a8,
+   #b8 {
+      width: 27vw;
+      margin-left: 45vw;
+      margin-top: 60vh;
+   }
+
+   #teamdesign,
+   #teamdesigntexto {
+      height: 50vh;
+   }
+   
+   #teamdesign,
+   #casestudy,   #teamdesigntexto, #casestudytexto{
+      min-width: 40vw;
+
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      height: 50vh;
+       right: 2vw;
+       margin-right: 5vw;
+   }
+    
+   #bTD,
+   #bCS {
+      position: absolute;
+      left:0;
+      width: 170px;
+      padding: 10px 0px;  
+
+   }
+    
+   #bTD {
+    margin-top: 7vh;
+    margin: 0vh 18vw;
+
+
+   }
+   #bCS {
+    margin-top: 7vh;
+    margin: 0vh 65vw;
+
+   }
+}
+
+@media screen and (max-width:880px) {
+   .opcoes,
+   #opcoes {
+      overflow: visible;
+      
+   }
+   .opcoes {
+       margin: auto;
+      text-align: center;
+      padding-bottom: 30vh;
+      margin-bottom: 70vh;
+       display: block;
+
+   }
+   #teamdesign,
+   #teamdesigntexto {
+      margin-left: 14vw;
+      height: 55vh;
+   }
+   
+   #teamdesign,
+   #casestudy,   #teamdesigntexto, #casestudytexto{
+      min-width: 550px;
+      margin: 0vh 10vw;
+
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      margin: 0vh 18vw;
+      margin-top: 80vh;
+      height: 55vh;
+      left:0;
+
+   }
+    
+   #bTD,
+   #bCS {
+      position: absolute;
+      left:0;
+      width: 170px;
+      padding: 10px 0px;  
+   }
+    
+   #bTD {
+    margin: 0vh 40vw;
+    margin-top: 7vh;
+
+   }
+   #bCS {
+    margin: 0vh 40vw;
+    margin-top: 87vh;
+   }
+}
+
+@media screen and (max-width: 800px) {
+
+   .opcoes {
+       margin: auto;
+       text-align: center;
+      padding-bottom: 35vh;
+      margin-bottom: 35vh;
+       display: block;
+
+   }
+   #teamdesign,
+   #teamdesigntexto {
+      margin-left: 8vw;
+      height: 40vh;
+   }
+   
+   #teamdesign,
+   #casestudy,   #teamdesigntexto, #casestudytexto{
+      min-width: 500px;
+      margin-left: 10vw;
+
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      margin-top: 65vh;
+      margin-left: 17vw;
+      height: 40vh;
+           left:0;
+   }
+   #bTD,
+   #bCS {
+      position: absolute;
+      left:0;
+      width: 170px;
+      padding:10px 0px;
+    
+   }
+    
+   #bTD {
+      margin-top: -9vh;
+      margin-left: 39vw;
+       
+   }
+   #bCS {
+      margin-top: 56vh;
+      margin-left: 39vw;
+   }
+}
+
+@media screen and (max-width: 700px) {
+
+    #inicio {
+    padding-top: 3vh;    
+    }
+    
+   #horario img {
+      padding-top: 5vh;
+   }
+    
+   #informacoes {
+      overflow: visible;
+      padding-bottom: 55vh;
+       margin-top: -5vh;
+   }
+    
+   #a1,
+   #b1 {
+      width: 42vw;
+   }
+   #a2,
+   #b2 {
+      width: 42vw;
+      margin-left: 46vw;
+   }
+   #a3,
+   #b3 {
+      width: 42vw;
+      margin-left: 0vw;
+      margin-top: 30vh;
+   }
+   #a4,
+   #b4 {
+      width: 42vw;
+      margin-left: 46vw;
+      margin-top: 30vh;
+   }
+   #a5,
+   #b5 {
+      width: 42vw;
+      margin-left: 0vw;
+      margin-top: 60vh;
+   }
+   #a6,
+   #b6 {
+      width: 42vw;
+      margin-left: 46vw;
+      margin-top: 60vh;
+   }
+   #a7,
+   #b7 {
+      width: 42vw;
+      margin-left: 0vw;
+      margin-top: 90vh;
+   }
+   #a8,
+   #b8 {
+      width: 42vw;
+      margin-left: 46vw;
+      margin-top: 90vh;
+   }
+   .opcoes,
+   #opcoes {
+      overflow: visible;
+      
+   }
+   #teamdesign,
+   #teamdesigntexto {
+      margin-left: 8vw;
+      height: 40vh;
+   }
+   
+   #teamdesign,
+   #casestudy,   #teamdesigntexto, #casestudytexto{
+      min-width: 70vw;
+
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      margin-top: 65vh;
+      margin-left: 14vw;
+      height: 40vh;
+   }
+
+    #bTD,
+   #bCS {
+      position: absolute;
+      left:0;
+      width: 170px;
+      padding:10px 0px;   
+   }
+    
+   #bTD {
+      margin-top: -9vh;
+      margin-left: 36vw;
+   }
+    
+   #bCS {
+      margin-top: 56vh;
+      margin-left: 36vw;
+   }
+    
+     .opcoes {
+      padding-bottom: 35vh;
+      margin-bottom: 30vh;
+      display: block;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       align-items: center;
+   }
+    
+   #horario img {
+      width: 100vw;
+   }
+    
+   .pessoa img {
+      max-width: 130px;
+      max-height: 130px;
+   }
+   .contact img {
+      max-width: 80px;
+      max-height: 80px;
+      margin-top: 20px;
+   }
+   .contact-text {
+      display: inline-block;
+      padding-left: 20px;
+      padding-top: 20px;
+      position: relative;
+      line-height: 12pt;
+   }
+   .contact-text p {
+      font-size: 10pt;
+   }
+   /*SECOND PAGE*/
+   #info2 {
+      display: block;
+      overflow-y: hidden;
+   }
+    
+
+   .col {
+      height: 55vh;
+   }
+   .ano h1 {
+      font-size: 14pt;
+   }
+   .ano p {
+      font-size: 11pt;
+   }
+   .container {
+      margin-top: 2vh;
+   }
+   .space {
+      height: 0vh;
+   }
+   .slideshow__slides {
+      position: relative;
+      width: 100vw;
+      height: 100px;
+      margin: 0px auto;
+      text-align: center;
+   }
+   .slideshow__slide {
+      position: absolute;
+      width: 100vw;
+      height: 100px;
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 1.5s ease-in-out;
+   }
+   .slideshow__overlay {
+      position: absolute;
+      width: 100vw;
+      height: 100px;
+      overflow: hidden;
+   }
+    #competicao{padding-top: 5vw;}
+    #competicao h2 {
+      font-size: 120%;
+   }
+    #equipa h1{ font-size: 160%;}
+    
+   #arrow {
+      position: relative;
+      font-size: 70%;
+      margin-top: -1vh;
+      padding-top: 2vh;
+      padding-bottom: 0vh;
+      background-color: #3a719c;
+   }
+   #arrow h1 {
+      color: #ffffff;
+      margin-bottom: 10px;
+   }
+    #arrow img{    
+        width: 8vw;}
+
+    #regulamento p{font-size: 120%;}
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    #inicio p{ text-align: left;   line-height: 1.6em;
+}
+    
+    #total p{ text-align: left;}
+    #s{ padding-left: 5vw; text-align: left;}
+    
+   #teamdesign,
+   #teamdesigntexto {
+      margin-left: 3vw;
+      height: 40vh;
+   }
+   
+   #teamdesign,
+   #casestudy,   #teamdesigntexto, #casestudytexto{
+      min-width: 80vw;
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      margin-top: 60vh;
+      margin-left: 9.5vw;
+      height: 40vh;
+   }
+    
+    #bTD,
+   #bCS {
+      position: absolute;
+      left:0;
+      width: 170px;
+      padding: 10px 0px;   
+   } 
+    
+   #bTD {
+      margin: 0vh 33vw;
+      margin-top: -10vh;
+   }
+    
+   #bCS {
+      margin: 0vh 33vw;
+      margin-top: 51vh;
+   }
+}
+
+@media screen and (max-width: 450px) {
+    
+.lingua p{font-size: 70%; }
+.lingua{padding-right: 2%; margin-top: 0px;}
+
+   h1 b {
+      font-size: 55px;
+   }
+    
+    .opcoes {
+      padding-bottom: 30vh;
+      margin-bottom: 5vh;
+
+   }
+    
+   #teamdesign,
+   #teamdesigntexto {
+      margin-left: 3vw;
+      height: 30vh;
+   }
+   
+   #casestudy,
+   #casestudytexto {
+      margin-top: 50vh;
+      margin-left: 10vw;
+      height: 30vh;
+   }
+
+    #bTD {
+      margin: 0vh 30vw;
+      margin-top: -20vh;
+   }
+    
+   #bCS {
+      margin: 0vh 30vw;
+      margin-top: 30vh;
+   }
+    
+#inicio{padding-top: -0vh; }
+#inicio p {
+   margin: auto;
+   display: block;
+   width: 85vw;
+   padding: 10vh 0vw;
+   text-align: auto;
+   font-size: 14px;
+}
+}
+} 
+
+@media screen and (max-width: 330px) {
+   #b1 p,
+   #b2 p,
+   #b3 p,
+   #b4 p,
+   #b5 p,
+   #b6 p,
+   #b7 p,
+   #b8 p {
+      font-size: 12px;
+   }
+}
+
+
+@media screen and (max-width: 750px) {
+    #hamburgermenu {
+        display: inline-block;
+    }
+        
+    header {
+        display: none;
+    }
+}
