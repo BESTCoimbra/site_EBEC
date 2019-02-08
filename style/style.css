@@ -490,6 +490,10 @@ footer p{
   color: #5e6363;
 }
 
+#contactBest{
+  float: right;
+}
+
 #contacts-container {
     text-align: left;
     width: 100vw;
@@ -541,10 +545,9 @@ footer p{
 }
 
 #contactosTitle{
-  padding-left: 7%; 
+  padding-left: 7%;
   padding-top: 1%;
-  font-size: 15pt; 
-  position: absolute;
+  font-size: 15pt;
 }
 
 @media only screen and (max-width: 1036px) {
