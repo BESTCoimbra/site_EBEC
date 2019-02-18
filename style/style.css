@@ -34,11 +34,6 @@ body {
 
 h1{
   color: #EEA225;
-  text-shadow:
-   -1px -1px 0 #5E5A5A,  
-    1px -1px 0 #5E5A5A,
-    -1px 1px 0 #5E5A5A,
-     1px 1px 0 #5E5A5A;
   font-weight: 900;
   padding-top: 10vh;
 }
@@ -92,7 +87,7 @@ nav{
 }
 
 nav{
-  width:110vw;
+  width: 110vw;
   max-width: 110vw;
   overflow: hidden;
 }
@@ -104,14 +99,8 @@ nav div{
 }
 
 .link_header a{
-  text-shadow:
-  -1px -1px 0 #000,  
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
   color: #5E5A5A;
   font-weight: 900;
-
   text-decoration: none;
 }
 
@@ -135,8 +124,8 @@ nav div{
     text-align: center;
     position: fixed;
     z-index: 4;
-    width: 20%;
-    background-color: #2f5597;
+    width: 30%;
+    background-color: #eea225;
     color: white;
     top:70px;
     margin-left: 70vw;
@@ -339,7 +328,6 @@ nav div{
   top: 50%;
   transform: translateY(-50%); 
   color: #5E5A5A;
-  text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
   font-weight: bolder;
   text-align: left;
   padding-left: 2vw;
@@ -401,20 +389,12 @@ nav div{
 
 #equipaForm h2,#soloForm h2{
   color: #5E5A5A;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  text-shadow: none;
 }
 
 #equipaForm:hover h2,#soloForm:hover h2{
   color: #EEA225;
-  text-shadow:
-   -1px -1px 0 #5E5A5A,  
-    1px -1px 0 #5E5A5A,
-    -1px 1px 0 #5E5A5A,
-     1px 1px 0 #5E5A5A;
+  text-shadow: none;
 }
 
 #equipaForm p,#soloForm p{
@@ -483,7 +463,7 @@ nav div{
 
 
 footer{
-  background-color: #c5d3ed;
+  background-color: #FFC39C;
 }
 
 footer p{
@@ -750,8 +730,8 @@ footer p{
     text-align: center;
     position: fixed;
     z-index: 4;
-    width: 20%;
-    background-color: #2f5597;
+    width: 30%;
+    background-color: #eea225;
     color: white;
     top:70px;
     margin-left: 69vw;
@@ -979,7 +959,7 @@ footer{
     position: fixed;
     z-index: 4;
     width: 36%;
-    background-color: #2f5597;
+    background-color: rgba(236, 127, 24, 1);
     color: white;
     top:70px;
     margin-left: 64vw;

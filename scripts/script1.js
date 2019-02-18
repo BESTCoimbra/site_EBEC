@@ -168,11 +168,11 @@ $(window).scroll(function () {
 
 $(document).on('scroll', function () {
     if(($(window).scrollTop() + $(window).height())  == $(document).height()){
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
 
         $("#homeNav").css("color", "#5E5A5A");
         $("#compNav").css("color", "#5E5A5A");
@@ -183,11 +183,11 @@ $(document).on('scroll', function () {
     }
     else{
    if ($(this).scrollTop() <= $('#introducao').position().top) {
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
 
         $("#homeNav").css("color", "#EEA225");
         $("#compNav").css("color", "#5E5A5A");
@@ -197,11 +197,11 @@ $(document).on('scroll', function () {
 
    }
    else if ($(this).scrollTop() >= $('#introducao').position().top && $(this).scrollTop() <= $('#equipa').position().top){
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
 
         $("#homeNav").css("color", "#5E5A5A");
         $("#compNav").css("color", "#EEA225");
@@ -211,11 +211,11 @@ $(document).on('scroll', function () {
 
    }
    else if ($(this).scrollTop() >= $('#equipa').position().top && $(this).scrollTop() <= $('#emp').position().top) {
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
 
         $("#homeNav").css("color", "#5E5A5A");
         $("#compNav").css("color", "#5E5A5A");
@@ -226,11 +226,11 @@ $(document).on('scroll', function () {
 
    }
    else if ($(this).scrollTop() >= $('#emp').position().top && $(this).scrollTop() <= $('#footer').position().top) {
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
 
 
         $("#homeNav").css("color", "#5E5A5A");
@@ -241,11 +241,11 @@ $(document).on('scroll', function () {
 
     }
    else {
-        $("#contactosNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
-        $("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
-        $("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#contactosNav").css("text-shadow", "-1px -1px 0 #5E5A5A,1px -1px 0 #5E5A5A,-1px 1px 0 #5E5A5A,1px 1px 0 #5E5A5A");
+        //$("#compNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#equipaNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#partnersNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
+        //$("#homeNav").css("text-shadow", "-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000");
 
 
         $("#homeNav").css("color", "#5E5A5A");
