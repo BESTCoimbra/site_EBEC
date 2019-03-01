@@ -431,6 +431,14 @@ nav div{
   margin: 2%;
 }
 
+#aptiv{
+  width: 25%;
+}
+
+#ansell{
+  width: 18%;
+}
+
 #fctuc{
   margin: 1%;
   width: 25%;
@@ -521,7 +529,7 @@ footer p{
 
 #bewLogo{
   width:70%;
-  padding-bottom: 12%:
+  padding-bottom: 12%;
 }
 
 #contactosTitle{
@@ -888,7 +896,7 @@ footer p{
 #bewLogo{
   width:70%;
   padding-left: 0%;
-  padding-bottom: 12%:
+  padding-bottom: 12%;
 }
 
 .clock {
@@ -939,7 +947,7 @@ footer{
 #bewLogo{
   width:100%;
   padding-left: 90%;
-  padding-bottom: 12%:
+  padding-bottom: 12%;
 }
 
 #ipdj{
@@ -1153,6 +1161,14 @@ footer{
 }
 #crit{
   width: 25%;
+}
+
+#aptiv{
+  width: 35%;
+}
+
+#ansell{
+  width: 28%;
 }
 
 #ipdj{
