@@ -452,6 +452,10 @@ nav div{
   width: 14%;
 }
 
+#esa {
+  width: 20%;
+}
+
 .teamFoto{
   position: relative;
   line-height: 0;
@@ -1161,6 +1165,10 @@ footer{
 }
 #crit{
   width: 25%;
+}
+
+#esa {
+  width: 35%;
 }
 
 #aptiv{
