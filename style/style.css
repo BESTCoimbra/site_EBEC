@@ -456,6 +456,10 @@ nav div{
   width: 20%;
 }
 
+#mac {
+  width: 11%;
+}
+
 .teamFoto{
   position: relative;
   line-height: 0;
@@ -1169,6 +1173,10 @@ footer{
 
 #esa {
   width: 35%;
+}
+
+#mac {
+  width: 22%;
 }
 
 #aptiv{
