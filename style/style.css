@@ -453,7 +453,11 @@ nav div{
 }
 
 #esa {
-  width: 20%;
+  width: 25%;
+}
+
+#esa-anual {
+  width: 40%;
 }
 
 #mac {
@@ -1172,7 +1176,11 @@ footer{
 }
 
 #esa {
-  width: 35%;
+  width: 50%;
+}
+
+#esa-anual {
+  width: 70%;
 }
 
 #mac {
