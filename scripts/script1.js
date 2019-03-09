@@ -1,7 +1,7 @@
 var clock;
 var date = new Date(2019, 2, 8);
 var now = new Date();
-var diff = (date.getTime()/1000) - (now.getTime()/1000);
+var diff = Math.max((date.getTime()/1000) - (now.getTime()/1000), 0);
 
 	
 $(document).ready(function() {
