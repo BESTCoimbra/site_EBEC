@@ -445,6 +445,18 @@ nav div{
   vertical-align: center;
 }
 
+#dei{
+  margin: 1%;
+  width: 35%;
+  vertical-align: center;
+}
+
+#deec{
+  margin: 1%;
+  width: 25%;
+  vertical-align: center;
+}
+
 #ipdj{
   width: 7%;
 }
@@ -1224,6 +1236,14 @@ footer{
 }
 #fctuc{
   width: 70%;
+}
+
+#dei{
+  width: 55%;
+}
+
+#deec{
+  width: 35%;
 }
 
 .partLittle{
