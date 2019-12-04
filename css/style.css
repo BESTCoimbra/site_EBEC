@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    
+}
+h1{
+    color: #F1A327;
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 48px;
+
+}
+h2{
+    color: #F1A327;
+    margin-bottom: 2%;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+header {
+    
+    position: fixed;
+    right: 0;
+    width: 100%;
+    margin-right: 2%;
+    overflow: hidden;
+    z-index: 100000;
+    top: 0;
+}
+
+#hamburger-icon {
+    width: 100px;
+    height: 15px;
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 2%;
+    z-index: 3;
+    
+}
+#hamburger-icon .line {
+    display: block;
+    background: black;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    right: 0px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    
+    
+}
+#hamburger-icon .line.line-1 {
+  top: 0%;
+}
+#hamburger-icon .line.line-2 {
+  top: 40%;
+}
+#hamburger-icon .line.line-3 {
+  top: 90%;
+}
+
+#hamburger-icon.active .line-1 {
+  transform: translateY(7px) translateX(0) rotate(45deg);
+  -webkit-transform: translateY(7px) translateX(0) rotate(45deg);
+  -moz-transform: translateY(7px) translateX(0) rotate(45deg);
+}
+#hamburger-icon.active .line-2 {
+  opacity: 0;
+}
+#hamburger-icon.active .line-3 {
+  transform: translateY(-6.5px) translateX(0) rotate(-45deg);
+  -webkit-transform: translateY(-6.5px) translateX(0) rotate(-45deg);
+  -moz-transform: translateY(-6.5px) translateX(0) rotate(-45deg);
+}
+#hamburger-icon.active .line{
+    background: white;
+}
+
+.menuOpcoes {
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    background-color: #777267;
+    z-index: 2;
+    height: 100%;
+    width: 30%;
+    left: -30%;
+    transition: all 0.5s;
+    padding-top: 5%;
+    
+    
+}
+.menuOpcoes.active{
+    transform: translateX(100%) translateY(0);
+}
+.Opcao{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: left;
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    padding: 3% 0;
+    margin-left: 20%;
+    font-weight: 600;
+}
+.Opcao:hover{
+    color: #F1A327;
+    text-decoration: none;
+    
+}
+.lingua{
+    float: right;
+    margin-top: 2%;
+    color: #F1A327;
+    
+}
+.lingua a{
+    color: #F1A327;
+}
+.lingactive{
+    font-weight: 600;
+}
+.linginactive{
+    font-weight: 300;
+}
+h1{
+    
+}
+#BEST_Coimbra{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#BEST_Coimbra img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3%;
+}
+#EBEC_Programe{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.piramide{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.EBEC_Programe_categories{
+    margin-top: 5%;
+}
+
+.EBEC_Programe_categories img{
+    width: 48%;
+    display: inline;
+    padding: 2%;
+    margin-top: 1%;
+}
+
+
+#Participants_Profile{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Participants_Profile img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#ebec{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Location, #participate, #schedule{
+    margin-top: 5%;
+}
+#Former_Editions{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.edicao{
+    margin-top: 5% !important;
+}
+#Partners{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.partners_2{
+    margin-top: 5%;
+}
+#ipdj{
+    width: 75%;
+}
+#Core_Team{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Core_Team p{
+    text-align: center;
+}
+.nome{
+    font-weight: 600;
+}
+.mail{
+    font-size: 18px;
+}
+footer{
+    margin-top: 10%;
+}
+#bestContact{
+    width: 10%;
+    float:right;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.iconSocial{
+    width: 3%;
+
+}
+#iconDiv{
+    margin-left: 5%;
+}
