@@ -59,10 +59,10 @@ header {
   top: 0%;
 }
 #hamburger-icon .line.line-2 {
-  top: 40%;
+  top: 50%;
 }
 #hamburger-icon .line.line-3 {
-  top: 90%;
+  top: 100%;
 }
 
 #hamburger-icon.active .line-1 {
@@ -131,7 +131,9 @@ header {
 .linginactive{
     font-weight: 300;
 }
-h1{
+
+#front img{
+    width: 100%;
     
 }
 #BEST_Coimbra{
@@ -181,6 +183,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 80%;
 }
 #ebec{
     margin-top: 10%;
@@ -195,9 +198,21 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
 .edicao{
     margin-top: 5% !important;
 }
+.edicao2{
+    margin-top: 10% !important;
+}
+.carousel{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #Partners{
     margin-top: 10%;
     margin-left: 10%;
