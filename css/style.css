@@ -190,14 +190,21 @@ header {
     margin-left: 10%;
     margin-right: 10%;
 }
-#Location, #participate, #schedule{
+#Location, #participate, #schedule, #regulamentos{
     margin-top: 5%;
+}
+#mobile_reg{
+    display: none;
+}
+#desktop_reg{
+    display: block;
 }
 #Former_Editions{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 
 
 .edicao{
@@ -285,12 +292,18 @@ footer a{
         width: 5%;
         margin-top: 3%;
     }
+            #desktop_reg{
+        display: none;
+    }
+    #mobile_reg{
+        display: block;
+    }
 }
 @media all and (max-width:736px){
     #BEST_Coimbra, #EBEC_Programe, #ebec, #Former_Editions, #Partners, #Core_Team, footer{
         margin-top: 20% !important;
     }
-    .EBEC_Programe_categories, #Participants_Profile, #Location, #participate, #schedule, .edicao, .partners_2{
+    .EBEC_Programe_categories, #Participants_Profile, #Location, #participate, #schedule, .edicao, .partners_2, #regulamentos{
         margin-top: 10% !important;
     }
     .menuOpcoes {        
@@ -318,6 +331,7 @@ footer a{
     .lingua{
         padding-right: 6%;
     }
+
     
     
 
@@ -342,6 +356,7 @@ footer a{
         width: 100%;
     
     }
+
     .mail{
         font-size: 14px;
     }
