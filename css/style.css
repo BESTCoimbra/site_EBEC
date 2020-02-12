@@ -254,6 +254,9 @@ footer{
 #iconDiv{
     margin-left: 5%;
 }
+footer a{
+    color: 
+}
 @media all and (max-width:980px){
     #BEST_Coimbra img{
         width: 100%;
