@@ -239,6 +239,15 @@ header {
 #Core_Team p{
     text-align: center;
 }
+#Judges{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Judges p{
+    text-align: center;
+}
+
 .nome{
     font-weight: 600;
 }
@@ -300,7 +309,7 @@ footer a{
     }
 }
 @media all and (max-width:736px){
-    #BEST_Coimbra, #EBEC_Programe, #ebec, #Former_Editions, #Partners, #Core_Team, footer{
+    #BEST_Coimbra, #EBEC_Programe, #ebec, #Former_Editions, #Partners, #Core_Team, #Judges, footer{
         margin-top: 20% !important;
     }
     .EBEC_Programe_categories, #Participants_Profile, #Location, #participate, #schedule, .edicao, .partners_2, #regulamentos{
