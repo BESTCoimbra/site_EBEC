@@ -158,6 +158,20 @@ header {
     padding: 3%;
     text-align: center;
 }
+.text-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.transparent-image{
+    opacity: 0.3;
+}
 .image-container{
     display: flex;
     align-items: center;
