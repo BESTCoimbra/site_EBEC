@@ -180,16 +180,6 @@ header {
 .image{
     width: 80%;
 }
-/* .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-.image2 {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-} */
 
 .button-container{
     display: flex;
@@ -202,7 +192,7 @@ header {
     background-color: #F1A327; /* Green */
     border: none;
     color: white;
-    padding: 40px;
+    padding: 15px;
     text-align: center;
     display: inline-block;
     font-size: 40px;
@@ -212,8 +202,8 @@ header {
 }
 .button1 {
     background-color: white; 
-    color: #F1A327; 
-    border-radius: 50%;
+    color: black; 
+    font-size: 20pt;
     border: 2px solid #F1A327;
 }
 .button1:hover {
@@ -224,13 +214,34 @@ header {
 .button2 {
     background-color: #F1A327; 
     color: white; 
-    border-radius: 20px;
 }
 .button2:hover {
     background-color: white;
     color: #F1A327;
     border: 2px solid #F1A327;
 }
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    font-size: 20pt;
+    border: 2px solid #F1A327;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+}
+.button3:hover {
+    transition:all 0.4s ease 0s;
+ }
+.button3 span {
+    opacity: 0;
+ }
+ .button3:hover span {
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+ }
+.button3:hover span:after {
+    content:"Em casa ;)";
+ }
   
 
 .EBEC_Programe_categories{
