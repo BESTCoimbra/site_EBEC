@@ -149,13 +149,9 @@ header {
     display: block;
     margin-top: 3%;
 }
-#EBEC_Programe{
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .partial{
-    padding: 3%;
+    padding: 5%;
+    padding-top: 7%;
     text-align: center;
 }
 .text-container{
@@ -185,8 +181,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin: 1%;
 }
 .button {
     background-color: #F1A327; /* Green */
@@ -196,14 +191,15 @@ header {
     text-align: center;
     display: inline-block;
     font-size: 40px;
-    margin: 10px;
+    margin: 20px;
     transition-duration: 0.4s;
+    font-size: 20pt;
+    border-radius: 10px;
     cursor: pointer;
 }
 .button1 {
     background-color: white;
     color: black;
-    font-size: 20pt;
     border: 2px solid #F1A327;
 }
 .button1:hover {
@@ -214,11 +210,12 @@ header {
 .button2 {
     background-color: #F1A327;
     color: white;
+    border-radius: 20px;
+    border: 2px solid #F1A327;
 }
 .button2:hover {
     background-color: white;
     color: #F1A327;
-    border: 2px solid #F1A327;
 }
 
 .button3 {
@@ -256,22 +253,17 @@ header {
 }
 
 
-#Participants_Profile{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 #Participants_Profile img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 80%;
+    width: 60%;
 }
-#ebec{
+/* #ebec{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-}
+} */
 #mobile_reg{
     display: none;
 }
@@ -294,11 +286,6 @@ header {
     margin-right: auto;
 }
 
-#Partners{
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .partners_2{
     margin-top: 5%;
 }
