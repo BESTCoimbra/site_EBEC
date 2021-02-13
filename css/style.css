@@ -4,24 +4,24 @@ body{
     color: #000;
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
-    
+
 }
 h1{
     color: #F1A327;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-weight: 600;
     font-size: 48px;
 
 }
 h2{
     color: #F1A327;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-weight: 300;
     font-size: 48px;
 }
 
 header {
-    
+
     position: fixed;
     right: 0;
     width: 100%;
@@ -39,7 +39,7 @@ header {
     float: left;
     margin-top: 2%;
     z-index: 3;
-    
+
 }
 #hamburger-icon .line {
     display: block;
@@ -52,8 +52,8 @@ header {
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
-    
-    
+
+
 }
 #hamburger-icon .line.line-1 {
   top: 0%;
@@ -93,8 +93,8 @@ header {
     left: -30%;
     transition: all 0.5s;
     padding-top: 5%;
-    
-    
+
+
 }
 .menuOpcoes.active{
     transform: translateX(100%) translateY(0);
@@ -114,13 +114,13 @@ header {
 .Opcao:hover{
     color: #F1A327;
     text-decoration: none;
-    
+
 }
 .lingua{
     float: right;
     margin-top: 2%;
     color: #F1A327;
-    
+
 }
 .lingua a{
     color: #F1A327;
@@ -134,7 +134,7 @@ header {
 
 #front img{
     width: 100%;
-    
+
 }
 #BEST_Coimbra{
     margin-top: 10%;
@@ -149,19 +149,96 @@ header {
     display: block;
     margin-top: 3%;
 }
-#EBEC_Programe{
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+.partial{
+    padding: 5%;
+    text-align: center;
 }
-.piramide{
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 3%;
-    margin-bottom: 3%;
+.text-container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
+.centered-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.transparent-image{
+    opacity: 0.3;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 80%;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+.button {
+    background-color: #F1A327; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white;
+    color: #6b9740;
+    border: 2px solid #6b9740;
+}
+.button1:hover {
+    background-color: #6b9740;
+    color: white;
+}
+
+.button2 {
+    background-color: #F1A327;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #F1A327;
+}
+.button2:hover {
+    background-color: white;
+    color: #F1A327;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    border: 2px solid #F1A327;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+}
+.button3:hover {
+    transition:all 0.4s ease 0s;
+ }
+.button3 span {
+    opacity: 0;
+ }
+ .button3:hover span {
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+ }
+.button3:hover span:after {
+    content:"Em casa ;)";
+ }
+
+
 .EBEC_Programe_categories{
     margin-top: 5%;
 }
@@ -174,35 +251,22 @@ header {
 }
 
 
-#Participants_Profile{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 #Participants_Profile img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 80%;
+    width: 60%;
 }
-#ebec{
+/* #ebec{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-}
-#Location, #participate, #schedule, #regulamentos{
-    margin-top: 5%;
-}
+} */
 #mobile_reg{
     display: none;
 }
 #desktop_reg{
     display: block;
-}
-#Former_Editions{
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 
@@ -220,11 +284,6 @@ header {
     margin-right: auto;
 }
 
-#Partners{
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .partners_2{
     margin-top: 5%;
 }
@@ -271,19 +330,19 @@ footer{
     margin-left: 5%;
 }
 footer a{
-    color: 
+    color:
 }
 @media all and (max-width:980px){
     #BEST_Coimbra img{
         width: 100%;
     }
-    .piramide{
+    .image{
         width: 40%;
     }
     .Opcao{
         padding: 3% 0;S
     }
-    .menuOpcoes {        
+    .menuOpcoes {
         width: 50%;
         left: -50%;
         transition: all 0.5s;
@@ -315,7 +374,7 @@ footer a{
     .EBEC_Programe_categories, #Participants_Profile, #Location, #participate, #schedule, .edicao, .partners_2, #regulamentos{
         margin-top: 10% !important;
     }
-    .menuOpcoes {        
+    .menuOpcoes {
         width: 100%;
         left: -100%;
         transition: all 0.5s;
@@ -341,8 +400,8 @@ footer a{
         padding-right: 6%;
     }
 
-    
-    
+
+
 
 }
 @media all and (max-width:480px){
@@ -355,7 +414,7 @@ footer a{
     p{
         font-size: 18px;
     }
-    .piramide{
+    .image{
         width: 70%;
     }
     .EBEC_Programe_categories img{
@@ -363,7 +422,7 @@ footer a{
     }
     #Participants_Profile img{
         width: 100%;
-    
+
     }
 
     .mail{
@@ -376,5 +435,5 @@ footer a{
         width: 10%;
         margin-top: 3%;
     }
-    
+
 }
