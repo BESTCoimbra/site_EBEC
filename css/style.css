@@ -292,9 +292,7 @@ header {
 }
 
 /*team */
-#Core_Team{
-    margin: 0 15%;
-}
+
 #Core_Team{
         margin-left: 10%;
         margin-right: 10%;
@@ -316,14 +314,22 @@ header {
     margin-left: 10%;
     margin-right: 10%;
 }
-#Judges p{
-    text-align: center;
+
+#Judges img{
+    width: 100%;
+    margin-bottom: 10%;
 }
 
+
 .nome{
-    font-weight: 600;
+    text-align: justify;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .mail{
+    margin-bottom: 1%;
+    text-align: justify;
     font-size: 18px;
 }
 footer{
