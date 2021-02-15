@@ -32,12 +32,13 @@
             })
         </script>
         <header>
+          <div id="progressbar"></div>
             <nav>
                 <div class="menu_desktop">
                     <a id="opcaoTop" href="index.html"><i class="material-icons">keyboard_arrow_left</i></a>
                     <a class="opcao" href="index.html#BEST_Coimbra">BEST Coimbra</a>
                     <a class="opcao" href="index.html#EBEC_Programe">About</a>
-                    <a class="opcao" href="index.html.EBEC_Programe_categories">Categories</a>
+                    <a class="opcao" href="index.html#EBEC_Categories">Categories</a>
                     <a class="opcao" href="index.html#ebec">Info</a>
                     <a class="opcao" href="index.html#Judges">Judges</a>
 
@@ -49,7 +50,7 @@
                     <div class="menuOpcoes">
                         <a class="Opcao" href="index.html#BEST_Coimbra">BEST Coimbra</a>
                         <a class="Opcao" href="index.html#EBEC_Programe">About</a>
-                        <a class="Opcao" href="index.html.EBEC_Programe_categories">Categories</a>
+                        <a class="Opcao" href="index.html#EBEC_Categories">Categories</a>
                         <a class="Opcao" href="index.html#ebec">Info</a>
                         <a class="Opcao" href="index.html#Judges">Judges</a>
                     </div>
@@ -64,12 +65,11 @@
                     </div>
 
                 </div>
-            </nav>
 
-        </header>
+            </nav>
+        </header> 
         <section id="team_ind">
             <div class="container-fluid">
-
                 <h1>Team</h1>
                 <h2>Core Team</h2>
                 <div class="row">
@@ -134,7 +134,7 @@
 
                    </div>
                      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <img class="img-responsive" src="images/teams/bernardo.png">
+                        <img class="img-responsive" src="images/teams/lumiar.png">
                         <h3>Design Responsible</h3>
                         <p>Lumiar Chaves</p>
                         <p>lumiar.chaves@gmail.com</p>
@@ -276,5 +276,15 @@
         </div>
       </div>
     </footer>
+    <script src ="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop(),
+      dh = $(document).height(),
+      wh = $(window).height();
+      scrollPercent = (scroll / (dh-wh)) *100;
+      $('#progressbar').css('width', scrollPercent + '%');
+    })
+  </script>
     </body>
 </html>

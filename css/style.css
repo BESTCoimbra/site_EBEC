@@ -32,13 +32,30 @@ header {
     top: 0;
 }
 
+::-webkit-scrollbar
+{
+    width: 0;
+}
+
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(to top, #EEA225, #69963F, #3C6F9B);
+}
+
+
 #hamburger-icon {
-    width: 100px;
+    width: 55px;
     height: 15px;
     position: relative;
     display: block;
     float: left;
     margin-top: 2%;
+    margin-left: 0;
     z-index: 3;
 
 }
@@ -87,11 +104,11 @@ header {
     text-align: center;
     position: fixed;
     cursor: pointer;
-    background-color: #777267;
+    background-color: #666666;
     z-index: 2;
     height: 100%;
-    width: 30%;
-    left: -30%;
+    width: 23%;
+    left: -23%;
     transition: all 0.5s;
     padding-top: 5%;
 
@@ -109,7 +126,7 @@ header {
     color: white;
     text-transform: uppercase;
     padding: 3% 0;
-    margin-left: 20%;
+    margin-left: 7%;
     font-weight: 600;
 }
 .Opcao:hover{

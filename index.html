@@ -35,12 +35,13 @@
   </head>
 
   <body>
+    <div id="progressbar"></div>
     <header>
       <nav>
         <div class="menuOpcoes">
           <a class="Opcao" href="#BEST_Coimbra">BEST Coimbra</a>
           <a class="Opcao" href="#EBEC_Programe">Sobre a EBEC</a>
-          <a class="Opcao" href=".EBEC_Programe_categories">Categorias</a>
+          <a class="Opcao" href="#EBEC_Categories">Categorias</a>
           <a class="Opcao" href="#Participants_Profile">Perfil Participantes</a>
           <a class="Opcao" href="#ebec">Horário</a>
           <a class="Opcao" href="#ebec">Regulamento</a>
@@ -165,7 +166,7 @@
         </div>
       </section>
 
-      <!-- Info TBEC -->
+      <!-- Info TBEC 
       <section id="TBEC_Programe" class="partial">
         <div class="container">
           <div class="row">
@@ -189,6 +190,7 @@
           </div>
         </div>
       </section>
+      -->
 
       <!-- Horario, Regulamento, Inscricao -->
       <section data-aos="fade-zoom-in"
@@ -387,6 +389,16 @@
         </div>
       </div>
     </footer>
+
+  <script type="text/javascript">
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop(),
+      dh = $(document).height(),
+      wh = $(window).height();
+      scrollPercent = (scroll / (dh-wh)) *100;
+      $('#progressbar').css('height', scrollPercent + '%');
+    })
+  </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
          AOS.init({

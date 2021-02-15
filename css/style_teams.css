@@ -43,6 +43,23 @@ header {
     z-index: 100000;
     top: 0;
 }
+::-webkit-scrollbar
+{
+    width: 0;
+}
+
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    margin-top: 59px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to left, #EEA225, #69963F, #3C6F9B);
+
+}
+
 
 .menu_desktop{
     text-transform: uppercase;
@@ -162,7 +179,7 @@ header {
 
 /*footer*/
 footer{
-    margin-top: 10%;
+    margin-top: 6%;
 }
 #bestContact{
     width: 10%;
@@ -348,7 +365,7 @@ footer a:hover{
     }
     .material-icons{
     font-size: 40px !important;
-    margin-top: 40%;
+    margin-top: 23%;
     margin-left: 40%;
     color: black;
 }
