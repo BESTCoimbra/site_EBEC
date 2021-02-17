@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     font-size: 24px;
@@ -182,6 +184,9 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.centered-text h1{
+    text-shadow: 2px 2px 5px #616161;
+}
 .transparent-image{
     opacity: 0.3;
 }
@@ -327,6 +332,11 @@ header {
 }
 
 
+#Participants_Profile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
 #Participants_Profile img{
     margin-left: auto;
     margin-right: auto;
@@ -429,6 +439,23 @@ footer{
     #BEST_Coimbra img{
         width: 100%;
     }
+
+    .centered-text{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    }
+    .centered-text h1{
+    text-shadow: none;
+    }
+
+    .button
+    {
+    font-size: 25px;
+    -webkit-box-reflect: unset;
+    }
+
     .image{
         width: 40%;
     }
