@@ -124,7 +124,7 @@ header {
     margin: 0;
     display: block;
     text-align: left;
-    font-size: 26px;
+    font-size: 24px;
     color: white;
     text-transform: uppercase;
     padding: 3% 0;
@@ -438,6 +438,9 @@ footer{
 @media all and (max-width:980px){
     #BEST_Coimbra img{
         width: 100%;
+    }
+    .transparent-image{
+    opacity: 1;
     }
 
     .centered-text{
