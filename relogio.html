@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="row flex-xs-row-reverse align-items-center g-5 py-5">
+      <div class="col-5 col-sm-5 col-lg-5">
+        <img src="horarios.png" class="d-block mx-xl-auto img-fluid" alt="Bootstrap Themes" width="350" height="200" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="display-3 fw-bold lh-1 mb-5" style="padding-left:  74px">Countdown</h1>
+
+        <link rel="stylesheet" href="styles.css">
+        <div class="timer">
+          <div class="days">
+            <span id="days_left"> 0</span>
+            days
+          </div>
+          <div class="hours">
+            <span id="hours_left"> 0 </span>
+            hours
+          </div>
+          <div class="mins">
+            <span id="mins_left"> 0 </span>
+            mins
+          </div>
+          <div class="secs">
+            <span id="secs_left"> 0 </span>
+            secs
+          </div>
+        </div>
+        <script src="time.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
