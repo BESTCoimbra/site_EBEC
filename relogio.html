@@ -9,34 +9,169 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
-    <div class="row flex-xs-row-reverse align-items-center g-5 py-5">
-      <div class="col-5 col-sm-5 col-lg-5">
-        <img src="horarios.png" class="d-block mx-xl-auto img-fluid" alt="Bootstrap Themes" width="350" height="200" loading="lazy">
-      </div>
-      <div class="col-md-6">
-        <h1 class="display-3 fw-bold lh-1 mb-5" style="padding-left:  74px">Countdown</h1>
-
-        <link rel="stylesheet" href="styles.css">
-        <div class="timer">
-          <div class="days">
-            <span id="days_left"> 0</span>
-            days
-          </div>
-          <div class="hours">
-            <span id="hours_left"> 0 </span>
-            hours
-          </div>
-          <div class="mins">
-            <span id="mins_left"> 0 </span>
-            mins
-          </div>
-          <div class="secs">
-            <span id="secs_left"> 0 </span>
-            secs
-          </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <table class="table table-striped table-hover">
+    <thead>
+    <tr class="text-center">
+      <th scope="col">#</th>
+      <th scope="col">Monday</th>
+      <th scope="col">tuesday</th>
+      <th scope="col">wednesday</th>
+      <th scope="col">thursday</th>
+      <th scope="col">friday</th>
+      <th scope="col">saturday</th>
+      <th scope="col">sunday</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="text-center">
+      <th scope="column ">10:00</th>
+      <td> <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        here
+      </button>
+        <div class="collapse" id="collapseExample">
+            HI
         </div>
-        <script src="time.js"></script>
-      </div>
-    </div>
+      </td>
+      <td>
+        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+        here
+        </button>
+        <div class="collapse" id="collapseExample2">
+          HOW ARE YOU?
+        </div>
+      </td>
+      <td>
+        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+          here
+        </button>
+        <div class="collapse" id="collapseExample3">
+          GOOD! DO YOU LIKE THIS?
+        </div>
+      </td>
+      <td>
+        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+          here
+        </button>
+        <div class="collapse" id="collapseExample4">
+          I DON'T LIKE YOU EITHER >_>
+        </div>
+      </td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">10:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">11:00</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">11:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">12:00</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">12:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">13:00</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">13:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">14:00</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>    <tr class="text-center">
+      <th scope="row">14:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">15:00</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">15:30</th>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+      <td><a class="dropdown-item text-center" href="#">-</a></td>
+
+    </tr>
+    </tbody>
+  </table>
   </body>
 </html>
