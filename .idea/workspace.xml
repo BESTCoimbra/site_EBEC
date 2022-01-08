@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="index unico, secções individuais em arquivos separados, base do horario+countdown">
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="tabela de horarios interativa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/relogio.html" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641399468773</updated>
       <workItem from="1641400990252" duration="5113000" />
-      <workItem from="1641657212786" duration="3247000" />
+      <workItem from="1641657212786" duration="4619000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641405456765</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tabela de horarios interativa">
+      <created>1641660655420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641660655420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +173,7 @@
     <MESSAGE value="." />
     <MESSAGE value="fix" />
     <MESSAGE value="index unico, secções individuais em arquivos separados, base do horario+countdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="index unico, secções individuais em arquivos separados, base do horario+countdown" />
+    <MESSAGE value="tabela de horarios interativa" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabela de horarios interativa" />
   </component>
 </project>
