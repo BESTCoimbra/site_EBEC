@@ -1,183 +1,794 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  </head>
-  <body>
-  <script src="js/bootstrap.bundle.min.js"></script>
-
+ <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!-- Bootstrap CSS -->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet"/>
+ </head>
+ <body>
+  <script src="js/bootstrap.bundle.min.js">
+  </script>
   <!-------------------------------tabela 1 ----------------------------->
-  <div style=width:80%;margin:auto;margin-top:50px>
-  <table class="table table-striped table-sm table-hover">
+  <div class="table-responsive" style="width:50%;margin:auto;">
+   <table class="table table-striped table-sm table-hover align-middle" style="border-spacing: 1px; border-collapse: separate">
     <thead>
-    <tr class="text-center">
-      <th scope="col">#</th>
-      <th scope="col">Monday</th>
-      <th scope="col">tuesday</th>
-      <th scope="col">wednesday</th>
-      <th scope="col">thursday</th>
-      <th scope="col">friday</th>
-      <th scope="col">saturday</th>
-      <th scope="col">sunday</th>
-    </tr>
+     <tr class="text-center">
+      <th scope="col">
+       #
+      </th>
+      <th scope="col">
+       Monday
+      </th>
+      <th scope="col">
+       tuesday
+      </th>
+      <th scope="col">
+       wednesday
+      </th>
+      <th scope="col">
+       thursday
+      </th>
+      <th scope="col">
+       friday
+      </th>
+      <th scope="col">
+       saturday
+      </th>
+      <th scope="col">
+       sunday
+      </th>
+     </tr>
     </thead>
     <tbody>
-    <tr class="text-center">
-      <th scope="column ">10:00</th>
-      <td> <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+     <tr class="text-center">
+      <th scope="column">
+       10:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td style="background: green">
+       <a class="btn text-center col-md-auto" data-bs-toggle="collapse" href="#test" role="button" aria-expanded="false" aria-controls="test">
+        test
+       </a>
+       <div class="collapse" id="test">
+        hi, this is a reaaaaaallly long text to test how will this thing get handled by the website, don't mind me
+      </td>
+      </div>
+      <td>
+       <button aria-controls="row1col2" aria-expanded="false" class="btn text-center" data-bs-target="#row1col2" data-bs-toggle="collapse" type="button">
+         here
+       </button>
+       <div class="collapse" id="row1col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row1col3" aria-expanded="false" class="btn text-center" data-bs-target="#row1col3" data-bs-toggle="collapse" type="button">
         here
-      </button>
-        <div class="collapse" id="collapseExample">
-            HI
-        </div>
+       </button>
+       <div class="collapse" id="row1col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
       </td>
       <td>
-        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+       <button aria-controls="row1col4" aria-expanded="false" class="btn text-center" data-bs-target="#row1col4" data-bs-toggle="collapse" type="button">
         here
-        </button>
-        <div class="collapse" id="collapseExample2">
-          HOW ARE YOU?
-        </div>
+       </button>
+       <div class="collapse" id="row1col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
       </td>
       <td>
-        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-          here
-        </button>
-        <div class="collapse" id="collapseExample3">
-          GOOD! DO YOU LIKE THIS?
-        </div>
+       <button aria-controls="row1col5" aria-expanded="false" class="btn text-center" data-bs-target="#row1col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row1col5">
+        HI
+       </div>
       </td>
       <td>
-        <button class="btn text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-          here
-        </button>
-        <div class="collapse" id="collapseExample4">
-          I DON'T LIKE YOU EITHER >_>
-        </div>
+       <button aria-controls="row1col6" aria-expanded="false" class="btn text-center" data-bs-target="#row1col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row1col6">
+        HOW ARE YOU?
+       </div>
       </td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">10:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">11:00</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">11:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">12:00</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">12:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">13:00</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">13:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">14:00</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>    <tr class="text-center">
-      <th scope="row">14:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">15:00</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-    </tr>
-    <tr class="text-center">
-      <th scope="row">15:30</th>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-      <td><a class="dropdown-item text-center" href="#">-</a></td>
-
-    </tr>
+      <td>
+       <button aria-controls="row1col7" aria-expanded="false" class="btn text-center" data-bs-target="#row1col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row1col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       10:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row2col1" aria-expanded="false" class="btn text-center" data-bs-target="#row2col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col2" aria-expanded="false" class="btn text-center" data-bs-target="#row2col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col3" aria-expanded="false" class="btn text-center" data-bs-target="#row2col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col4" aria-expanded="false" class="btn text-center" data-bs-target="#row2col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col5" aria-expanded="false" class="btn text-center" data-bs-target="#row2col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col6" aria-expanded="false" class="btn text-center" data-bs-target="#row2col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row2col7" aria-expanded="false" class="btn text-center" data-bs-target="#row2col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row2col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       11:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row3col1" aria-expanded="false" class="btn text-center" data-bs-target="#row3col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col2" aria-expanded="false" class="btn text-center" data-bs-target="#row3col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col3" aria-expanded="false" class="btn text-center" data-bs-target="#row3col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col4" aria-expanded="false" class="btn text-center" data-bs-target="#row3col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col5" aria-expanded="false" class="btn text-center" data-bs-target="#row3col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col6" aria-expanded="false" class="btn text-center" data-bs-target="#row3col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row3col7" aria-expanded="false" class="btn text-center" data-bs-target="#row3col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row3col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       11:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row4col1" aria-expanded="false" class="btn text-center" data-bs-target="#row4col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col2" aria-expanded="false" class="btn text-center" data-bs-target="#row4col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col3" aria-expanded="false" class="btn text-center" data-bs-target="#row4col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col4" aria-expanded="false" class="btn text-center" data-bs-target="#row4col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col5" aria-expanded="false" class="btn text-center" data-bs-target="#row4col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col6" aria-expanded="false" class="btn text-center" data-bs-target="#row4col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row4col7" aria-expanded="false" class="btn text-center" data-bs-target="#row4col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row4col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       12:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row5col1" aria-expanded="false" class="btn text-center" data-bs-target="#row5col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col2" aria-expanded="false" class="btn text-center" data-bs-target="#row5col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col3" aria-expanded="false" class="btn text-center" data-bs-target="#row5col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col4" aria-expanded="false" class="btn text-center" data-bs-target="#row5col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col5" aria-expanded="false" class="btn text-center" data-bs-target="#row5col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col6" aria-expanded="false" class="btn text-center" data-bs-target="#row5col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row5col7" aria-expanded="false" class="btn text-center" data-bs-target="#row5col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row5col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       12:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row6col1" aria-expanded="false" class="btn text-center" data-bs-target="#row6col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col2" aria-expanded="false" class="btn text-center" data-bs-target="#row6col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col3" aria-expanded="false" class="btn text-center" data-bs-target="#row6col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col4" aria-expanded="false" class="btn text-center" data-bs-target="#row6col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col5" aria-expanded="false" class="btn text-center" data-bs-target="#row6col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col6" aria-expanded="false" class="btn text-center" data-bs-target="#row6col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row6col7" aria-expanded="false" class="btn text-center" data-bs-target="#row6col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row6col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       13:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row7col1" aria-expanded="false" class="btn text-center" data-bs-target="#row7col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col2" aria-expanded="false" class="btn text-center" data-bs-target="#row7col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col3" aria-expanded="false" class="btn text-center" data-bs-target="#row7col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col4" aria-expanded="false" class="btn text-center" data-bs-target="#row7col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col5" aria-expanded="false" class="btn text-center" data-bs-target="#row7col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col6" aria-expanded="false" class="btn text-center" data-bs-target="#row7col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row7col7" aria-expanded="false" class="btn text-center" data-bs-target="#row7col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row7col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       13:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row8col1" aria-expanded="false" class="btn text-center" data-bs-target="#row8col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col2" aria-expanded="false" class="btn text-center" data-bs-target="#row8col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col3" aria-expanded="false" class="btn text-center" data-bs-target="#row8col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col4" aria-expanded="false" class="btn text-center" data-bs-target="#row8col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col5" aria-expanded="false" class="btn text-center" data-bs-target="#row8col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col6" aria-expanded="false" class="btn text-center" data-bs-target="#row8col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row8col7" aria-expanded="false" class="btn text-center" data-bs-target="#row8col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row8col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       14:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row9col1" aria-expanded="false" class="btn text-center" data-bs-target="#row9col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col2" aria-expanded="false" class="btn text-center" data-bs-target="#row9col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col3" aria-expanded="false" class="btn text-center" data-bs-target="#row9col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col4" aria-expanded="false" class="btn text-center" data-bs-target="#row9col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col5" aria-expanded="false" class="btn text-center" data-bs-target="#row9col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col6" aria-expanded="false" class="btn text-center" data-bs-target="#row9col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row9col7" aria-expanded="false" class="btn text-center" data-bs-target="#row9col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row9col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       14:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row10col1" aria-expanded="false" class="btn text-center" data-bs-target="#row10col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col2" aria-expanded="false" class="btn text-center" data-bs-target="#row10col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col3" aria-expanded="false" class="btn text-center" data-bs-target="#row10col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col4" aria-expanded="false" class="btn text-center" data-bs-target="#row10col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col5" aria-expanded="false" class="btn text-center" data-bs-target="#row10col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col6" aria-expanded="false" class="btn text-center" data-bs-target="#row10col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row10col7" aria-expanded="false" class="btn text-center" data-bs-target="#row10col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row10col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       15:00
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row11col1" aria-expanded="false" class="btn text-center" data-bs-target="#row11col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col2" aria-expanded="false" class="btn text-center" data-bs-target="#row11col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col3" aria-expanded="false" class="btn text-center" data-bs-target="#row11col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col4" aria-expanded="false" class="btn text-center" data-bs-target="#row11col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col5" aria-expanded="false" class="btn text-center" data-bs-target="#row11col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col6" aria-expanded="false" class="btn text-center" data-bs-target="#row11col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row11col7" aria-expanded="false" class="btn text-center" data-bs-target="#row11col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row11col7">
+        HI
+       </div>
+      </td>
+     </tr>
+     <tr class="text-center">
+      <th scope="row">
+       15:30
+      </th>
+      <!----------------------------------------------------------------------------------------------->
+      <td>
+       <button aria-controls="row12col1" aria-expanded="false" class="btn text-center" data-bs-target="#row12col1" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col1">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col2" aria-expanded="false" class="btn text-center" data-bs-target="#row12col2" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col2">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col3" aria-expanded="false" class="btn text-center" data-bs-target="#row12col3" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col3">
+        GOOD! DO YOU LIKE THIS?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col4" aria-expanded="false" class="btn text-center" data-bs-target="#row12col4" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col4">
+        I DON'T LIKE YOU EITHER &gt;_&gt;
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col5" aria-expanded="false" class="btn text-center" data-bs-target="#row12col5" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col5">
+        HI
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col6" aria-expanded="false" class="btn text-center" data-bs-target="#row12col6" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col6">
+        HOW ARE YOU?
+       </div>
+      </td>
+      <td>
+       <button aria-controls="row12col7" aria-expanded="false" class="btn text-center" data-bs-target="#row12col7" data-bs-toggle="collapse" type="button">
+        here
+       </button>
+       <div class="collapse" id="row12col7">
+        HI
+       </div>
+      </td>
+     </tr>
     </tbody>
-  </table>
+   </table>
   </div>
-
   <!-------------------------------tabela 2-----------------------------
   <table class="table table-striped table-hover table-sm" style="float: left">
     <thead>
@@ -343,5 +954,5 @@
     </tbody>
   </table>
   -->
-  </body>
+ </body>
 </html>

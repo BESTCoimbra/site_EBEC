@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="tabela de horarios interativa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/horarios.png" beforeDir="false" afterPath="$PROJECT_DIR$/horarios.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/relogio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641399468773</updated>
       <workItem from="1641400990252" duration="5113000" />
-      <workItem from="1641657212786" duration="4619000" />
+      <workItem from="1641657212786" duration="5321000" />
+      <workItem from="1641742674740" duration="7403000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641660655420</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tabela de horarios interativa">
+      <created>1641662106624</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641662106624</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
