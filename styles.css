@@ -31,3 +31,5 @@
     padding: 11px;
     font-size: 22px;
 }
+
+td {width: inherit;height: inherit}
