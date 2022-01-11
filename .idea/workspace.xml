@@ -8,7 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="tabela de horarios interativa">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/relogio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -79,7 +78,8 @@
       <workItem from="1641400990252" duration="5113000" />
       <workItem from="1641657212786" duration="5321000" />
       <workItem from="1641742674740" duration="7403000" />
-      <workItem from="1641777014909" duration="8644000" />
+      <workItem from="1641777014909" duration="8953000" />
+      <workItem from="1641915348120" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641662106624</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tabela de horarios interativa">
+      <created>1641785998660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641785998660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

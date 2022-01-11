@@ -33,3 +33,5 @@
 }
 
 td {width: inherit;height: inherit}
+
+.btn {background: black;width: inherit;height: fit-content}
