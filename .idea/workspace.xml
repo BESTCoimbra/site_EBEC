@@ -7,15 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="parcerias">
-      <change beforePath="$PROJECT_DIR$/horarios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabela interativa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unsplash-photo-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unsplash-photo-3.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="parcerias" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="new" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +76,7 @@
       <workItem from="1641742674740" duration="7403000" />
       <workItem from="1641777014909" duration="8953000" />
       <workItem from="1641915348120" duration="8346000" />
-      <workItem from="1642010738372" duration="8330000" />
+      <workItem from="1642010738372" duration="8742000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -205,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642018988862</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="parcerias">
+      <created>1642019183455</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642019183455</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +215,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
