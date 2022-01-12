@@ -7,13 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="tabela de horarios interativa">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcerias.html" beforeDir="false" afterPath="$PROJECT_DIR$/parcerias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/relogio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unsplash-photo-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/unsplash-photo-1.jpg" afterDir="false" />
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="parcerias">
+      <change beforePath="$PROJECT_DIR$/horarios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relogio.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabela interativa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsplash-photo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsplash-photo-3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1641742674740" duration="7403000" />
       <workItem from="1641777014909" duration="8953000" />
       <workItem from="1641915348120" duration="8346000" />
-      <workItem from="1642010738372" duration="7959000" />
+      <workItem from="1642010738372" duration="8330000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -190,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641922106941</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="parcerias">
+      <created>1642018927834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642018927834</updated>
+    </task>
+    <task id="LOCAL-00017" summary="parcerias">
+      <created>1642018988862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642018988862</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +228,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="index unico, secções individuais em arquivos separados, base do horario+countdown" />
     <MESSAGE value="tabela de horarios interativa" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabela de horarios interativa" />
+    <MESSAGE value="parcerias" />
+    <option name="LAST_COMMIT_MESSAGE" value="parcerias" />
   </component>
 </project>
