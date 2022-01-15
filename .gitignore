@@ -5,3 +5,8 @@ db.ini
 /js/
 /img/
 /css/
+/scss/
+/package.json
+/package-lock.json
+/rfs-9.0.6/
+/node_modules/
