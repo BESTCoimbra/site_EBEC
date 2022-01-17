@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="ajuste no titulo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="correção" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1642294233882" duration="723000" />
       <workItem from="1642346901000" duration="3014000" />
       <workItem from="1642433277763" duration="1829000" />
-      <workItem from="1642435671113" duration="900000" />
+      <workItem from="1642435671113" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642435496808</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="correção">
+      <created>1642436761935</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1642436761935</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +267,7 @@
     <MESSAGE value="parcerias" />
     <MESSAGE value="horarios" />
     <MESSAGE value="ajuste no titulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste no titulo" />
+    <MESSAGE value="correção" />
+    <option name="LAST_COMMIT_MESSAGE" value="correção" />
   </component>
 </project>
