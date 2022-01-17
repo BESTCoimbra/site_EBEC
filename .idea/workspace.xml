@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="correção" />
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="correção">
+      <change beforePath="$PROJECT_DIR$/tabela interativa.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabela interativa.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +83,7 @@
       <workItem from="1642346901000" duration="3014000" />
       <workItem from="1642433277763" duration="1829000" />
       <workItem from="1642435671113" duration="1132000" />
+      <workItem from="1642436877879" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642436761935</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="correção">
+      <created>1642437117373</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642437117373</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
