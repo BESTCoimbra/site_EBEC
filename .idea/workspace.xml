@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="horarios">
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="ajuste no titulo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +83,7 @@
       <workItem from="1642294233882" duration="723000" />
       <workItem from="1642346901000" duration="3014000" />
       <workItem from="1642433277763" duration="1829000" />
+      <workItem from="1642435671113" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642019790977</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ajuste no titulo">
+      <created>1642435496808</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642435496808</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +262,7 @@
     <MESSAGE value="tabela de horarios interativa" />
     <MESSAGE value="parcerias" />
     <MESSAGE value="horarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="horarios" />
+    <MESSAGE value="ajuste no titulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste no titulo" />
   </component>
 </project>
