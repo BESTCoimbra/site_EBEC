@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="parcerias" />
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="horarios">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabela interativa.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabela interativa.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +82,9 @@
       <workItem from="1641777014909" duration="8953000" />
       <workItem from="1641915348120" duration="8346000" />
       <workItem from="1642010738372" duration="9116000" />
+      <workItem from="1642294233882" duration="723000" />
+      <workItem from="1642346901000" duration="3014000" />
+      <workItem from="1642433277763" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -247,6 +255,7 @@
     <MESSAGE value="index unico, secções individuais em arquivos separados, base do horario+countdown" />
     <MESSAGE value="tabela de horarios interativa" />
     <MESSAGE value="parcerias" />
-    <option name="LAST_COMMIT_MESSAGE" value="parcerias" />
+    <MESSAGE value="horarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="horarios" />
   </component>
 </project>
