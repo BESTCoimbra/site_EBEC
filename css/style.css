@@ -7,10 +7,12 @@
 }
 */
 
+
 .container {
   padding-left: 8%;
   padding-right: 8%;
 }
+
 
 /*
 .container {
@@ -40,3 +42,32 @@
     width: 100%;
   }
  }
+
+@media (min-width: 280px) {
+  #best_logo {
+    width: 320px;
+  }
+}
+
+/* =============================== PARTNERS ================================= */
+
+.logo-list {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo-list img,  {
+    display: inline-block;
+    max-width: 100%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+.logo-list img:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+  .col-lg-1{
+    flex:0 0 auto; width:12%
+  }
+}
