@@ -7,18 +7,18 @@
 }
 */
 
-
 .container {
   padding-left: 8%;
   padding-right: 8%;
 }
 
-
-/*
-.container {
-  height: 100vh;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', sans-serif;
 }
-*/
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* ============================= EBEC PYRAMID =============================== */
 
@@ -43,31 +43,49 @@
   }
  }
 
-@media (min-width: 280px) {
-  #best_logo {
-    width: 320px;
-  }
-}
+ /* =============================== PARTNERS ================================= */
 
-/* =============================== PARTNERS ================================= */
+ .logo-list {
+     padding: 20px 0;
+     text-align: center;
+ }
 
-.logo-list {
-    padding: 20px 0;
-    text-align: center;
-}
+ .logo-list img,  {
+     display: inline-block;
+     max-width: 100%;
+     padding: 15px 0;
+     transition: all 0.3s ease-in-out;
+ }
+ .logo-list img:hover {
+     transform: scale(1.1);
+ }
 
-.logo-list img,  {
-    display: inline-block;
-    max-width: 100%;
-    padding: 15px 0;
-    transition: all 0.3s ease-in-out;
-}
-.logo-list img:hover {
-    transform: scale(1.1);
-}
+ @media (min-width: 992px) {
+   .col-lg-1{
+     flex:0 0 auto; width:12%
+   }
+ }
 
-@media (min-width: 992px) {
-  .col-lg-1{
-    flex:0 0 auto; width:12%
-  }
-}
+ /* ================================= TEAM =================================== */
+
+ .linkedin_logo {
+   height: 70px;
+ }
+
+ .linkedin_logo_small {
+   height: 27px;
+ }
+
+ .hover1 .hover2 {
+   opacity: 0;
+ }
+
+ .hover1:hover .hover2 {
+   opacity: 1;
+   transition: 300ms;
+ }
+
+ .hover1:hover .imagehover {
+   opacity: 0.3;
+   transition: 300ms;
+ }
