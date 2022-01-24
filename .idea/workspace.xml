@@ -7,11 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="fix + pasta com o tradutor.(falta a chave do google cloud)">
-      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+    <list default="true" id="047db7c1-c895-4758-b962-722973410956" name="Changes" comment="adicionado footer">
+      <changelist_data name="gabriel" email="gabrielcampos11@gmail.com" date="1643046693000" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unsplash-photo-1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +28,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="new" />
+        <entry key="$PROJECT_DIR$" value="0574032e7aa4f4238702bd57a6ecd42855b1afd3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -90,7 +91,7 @@
       <workItem from="1642788608021" duration="3551000" />
       <workItem from="1642792666910" duration="1616000" />
       <workItem from="1642952946580" duration="5193000" />
-      <workItem from="1643038570008" duration="7843000" />
+      <workItem from="1643038570008" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="horarios-1">
       <created>1641402565756</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642958602180</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adicionado footer">
+      <created>1643046694306</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1643046694306</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="correção" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix + pasta com o tradutor.(falta a chave do google cloud)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix + pasta com o tradutor.(falta a chave do google cloud)" />
+    <MESSAGE value="adicionado footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado footer" />
   </component>
 </project>
