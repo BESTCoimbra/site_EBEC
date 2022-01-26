@@ -1,6 +1,121 @@
 
 /* ================================= COMMON =============================== */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+nav{
+  position: fixed;
+}
+
+.logoebec{
+  width: 190px;
+  height: 60px;
+}
+#header .btn-primary {
+    text-align: center;
+    background-color: #ff8427;
+    border-width: 2px;
+    border-color: #ff8427;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: none !important;
+}
+#header .btn-primary:hover {
+    color: #ff8427;
+    border-color: #ff8427;
+    border-width: 2px;
+    background-color: #ffffff ;
+    
+ }
+ #header .btn-primary:focus {
+    background-color: #ffffff !important;
+    border-color: #ff8427;
+    box-shadow: none !important;
+    color: #ff8427;
+
+ }
+ #header body{
+  font-family:'sora',sans-serif;
+  font-weight: 700;
+ }
+ .col-lg-7 .btn{
+  background-color: #ff8427;
+  border-width: 5px;
+  border-color: #ff8427;
+  font-size: 20px;
+ }
+ #header .hero {
+  background-image: url(img/fotos/fotoheader.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+ }
+
+#header .hero::after { 
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #808080;
+  z-index: -1;
+  opacity: 65%;
+ }
+
+ h1{
+  color: white;
+  font-size: 120px;
+ }
+
+ p{
+  color: white;
+  font-size: 22px;
+ }
+
+ #categorias{
+    position: relative;
+  height: 400px;
+ }
+
+ #horário{
+    position: relative;
+  height: 400px;
+  background-color: #ff8427 ;
+ }
+ #local{
+    position: relative;
+  height: 400px;
+ }
+ #parce{
+
+  height: 400px;
+  background-color: #ff8427;
+ 
+ }
+ h2{
+  text-align: center;
+  position: relative;
+  top: 30px;
+ }
+nav-link{
+  color: $black;
+}
+ul li a {
+    text-align: center;
+}
+@media (max-width: px){
+
+    .logoebec{
+    width: ;
+    height:;
+    }
+}
 /*
 * {
   border: 1px solid red;
@@ -19,6 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: 'Open Sans', sans-serif;
 }
+/* ============================= EBEC PYRAMID =============================== */
+
 
 /* ============================= EBEC PYRAMID =============================== */
 
