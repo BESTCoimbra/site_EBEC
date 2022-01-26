@@ -2,61 +2,124 @@
 /* ================================= COMMON =============================== */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
-nav{
-  position: fixed;
+* {
+  border: 1px solid red;
 }
 
-.logoebec{
-  width: 190px;
-  height: 60px;
+
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
 }
+
+body {
+  padding-top: 0%;
+  --white-offwhite:#EFECEA;
+  --orange-lightorange:#F3BC6A;
+  --orange-visualidentityorange:#EEA225;
+  --grey-visualidentitygrey:#666666;
+  --black-offblack:#222221;
+  background-color: var(--white-offwhite);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', sans-serif;
+  color: var(--bs-blue);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #jury h2 strong, #partners h2 strong, #team_complete h2 strong {
+  color: var(--orange-visualidentityorange);
+}
+
+#faqs_title {
+  color: var(--white-offwhite);
+}
+
+#text-pyramid p, #jury p {
+  color: var(--black-offblack);
+}
+
+.text-white {
+  color: var(--white-offwhite);
+}
+
+.text-black {
+  color: var(--black-offblack);
+}
+
+#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2 {
+  color: var(--grey-visualidentitygrey);
+}
+
+#ebec_pyramid .container, #categories .container, #partners .container {
+  padding-bottom: 2rem;
+}
+
+#faqs .container {
+  padding-bottom: 3rem;
+}
+
+/* ======================= HEADER AND STARTING SCREEN ======================= */
+
+#header ul, #header li, #header a, #navbarNav {
+    text-align: center;
+}
+
 #header .btn-primary {
     text-align: center;
-    background-color: #ff8427;
+    background-color: var(--orange-visualidentityorange);
     border-width: 2px;
-    border-color: #ff8427;
+    border-color: var(--orange-visualidentityorange);
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1.2rem;
     box-shadow: none !important;
 }
 #header .btn-primary:hover {
-    color: #ff8427;
-    border-color: #ff8427;
+    color: var(--orange-visualidentityorange);
+    border-color: var(--orange-visualidentityorange);
     border-width: 2px;
     background-color: #ffffff ;
-    
+
  }
  #header .btn-primary:focus {
     background-color: #ffffff !important;
     border-color: #ff8427;
     box-shadow: none !important;
     color: #ff8427;
-
- }
- #header body{
-  font-family:'sora',sans-serif;
-  font-weight: 700;
- }
- .col-lg-7 .btn{
-  background-color: #ff8427;
-  border-width: 5px;
-  border-color: #ff8427;
-  font-size: 20px;
- }
- #header .hero {
-  background-image: url(img/fotos/fotoheader.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 2;
  }
 
-#header .hero::after { 
+#header_logo {
+  height: 80px;
+  width: inherit;
+}
+
+#header .container {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#header .navbar {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+#header .hero {
+ background-image: url('../img/photos/fotoheader.jpg');
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+ z-index: 2;
+}
+
+#header .hero::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -67,76 +130,6 @@ nav{
   z-index: -1;
   opacity: 65%;
  }
-
- h1{
-  color: white;
-  font-size: 120px;
- }
-
- p{
-  color: white;
-  font-size: 22px;
- }
-
- #categorias{
-    position: relative;
-  height: 400px;
- }
-
- #horário{
-    position: relative;
-  height: 400px;
-  background-color: #ff8427 ;
- }
- #local{
-    position: relative;
-  height: 400px;
- }
- #parce{
-
-  height: 400px;
-  background-color: #ff8427;
- 
- }
- h2{
-  text-align: center;
-  position: relative;
-  top: 30px;
- }
-nav-link{
-  color: $black;
-}
-ul li a {
-    text-align: center;
-}
-@media (max-width: px){
-
-    .logoebec{
-    width: ;
-    height:;
-    }
-}
-/*
-* {
-  border: 1px solid red;
-}
-*/
-
-.container {
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', sans-serif;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-/* ============================= EBEC PYRAMID =============================== */
-
-
 /* ============================= EBEC PYRAMID =============================== */
 
 #v-pills-tab {
@@ -158,6 +151,35 @@ p {
   #text-pyramid {
     width: 100%;
   }
+ }
+
+ #ebec_pyramid .nav-pills .nav-link.active, .nav-pills .show .nav-link {
+   color: var(--bs-white);
+   background-color: var(--white-offwhite);
+ }
+
+ #ebec_pyramid .nav-link.active img {
+   outline-style: solid;
+   outline-color: var(--orange-visualidentityorange);
+   outline-width: 3px;
+ }
+
+ /* ============================== CATEGORIES ================================ */
+
+ #categories {
+   background-color: var(--orange-lightorange);
+ }
+
+ #categories_title strong {
+   color: var(--bs-white);
+ }
+
+ #case_study, #innovative_design {
+   background-color: var(--white-offwhite);
+ }
+
+ #categories p {
+   color: var(--black-offblack);
  }
 
  /* =============================== PARTNERS ================================= */
@@ -182,6 +204,26 @@ p {
      flex:0 0 auto; width:12%
    }
  }
+
+ /* ================================= FAQS =================================== */
+
+ #faqs {
+   background-color: var(--grey-visualidentitygrey);
+ }
+
+ #faqs .accordion-button, #faqs .accordion-body {
+   background-color: var(--white-offwhite);
+ }
+
+ #faqs .accordion-button:not(.collapsed) {
+     color: var(--black-offblack);
+     background-color: var(--orange-lightorange);
+ }
+
+ #faqs .accordion-button:focus {
+     z-index: 3;
+     border-color: var(--orange-lightorange);
+   }
 
  /* ================================= TEAM =================================== */
 

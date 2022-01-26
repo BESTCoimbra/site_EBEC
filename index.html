@@ -9,7 +9,9 @@
   <link href="css/heroes.css" rel="stylesheet">
   <link href="css/product.css" rel="stylesheet"> <!-- Codigo CSS - GetBootstrap -->
   <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/navbar-top-fixed.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+
 
   <script src="js/bootstrap.bundle.min.js"></script> <!-- Codigo JS - GetBootstrap -->
 
@@ -39,180 +41,159 @@
 <body>
 
   <!-- ==================== HEADER AND STARTING SCREEN ======================= -->
-  <section header id="header">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-custom">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="images/logo.png" class="logoebec">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#categorias">Categorias</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#horário">Horário</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#local">Localização</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#parc">Parceiros</a>
-        </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Documentos
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logos/EBEC_Original.svg" alt="" id="header_logo">
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Politicas</a>
-          <a class="dropdown-item" href="#">Guia</a>
-        </div>
-        </li> 
-      </ul>
-       <button class="btn btn-primary ms-lg-3"> Inscrições</button>
-    </div>
-  </div>
-</nav>
 
-<div class="hero vh-100 d-flex align-items-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 mx-auto text-center">
-      <h1 class="display 4">EBEC</h1>
-      <p>One challenge today, one change tomorrow </p>  
-      <a href="#" class="btn btn-primary"> Inscreve-te Já!</a>
-      </div>  
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Horário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Localização</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Parceiros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Documentos</a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="#">Guia do Participante</a></li>
+                <li><a class="dropdown-item" href="#">Regulamento</a></li>
+                <li><a class="dropdown-item" href="#">Termos de Política e Privacidade</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="btn btn-primary ms-lg-3" id="header_applicationbutton">Inscrições</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="marketing">
+          <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class=" p-3">
+                <h2 class="display-3 text-white" id="hero_title"><strong>EBEC Coimbra 2022</strong></h2>
+                <p class="lead mb-4 text-white">One challenge today, one change tomorrow.</p>
+                <a href="#" class="btn btn-primary"> Inscreve-te já!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>  
-</div>
-<div id="categorias">
-  <div class="container">
-    <div class="row">
-      <h2>Categorias</h2>
-    </div>
-  </div>
-</div>
-<div id="horário">
-  <div class="container">
-    <div class="row">
-      <h2>Horário</h2>
-    </div>
-  </div>
-</div>
-<div id="local">
-  <div class="container">
-    <div class="row">
-      <h2>Localização</h2>
-    </div>
-  </div>
-</div>
-<div id="parce">
-  <div class="container">
-    <div class="row">
-      <h2>Parceiros</h2>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
   <!-- ============================ COUNTDOWN ================================ -->
 
   <!-- ========================== PYRAMID EBEC =============================== -->
 
-  <!-- Title -->
-  <div class="container">
-    <div class="marketing">
-      <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class=" p-3">
-            <h2 class="display-3">Title</h2>
+  <section id="ebec_pyramid">
+    <!-- Title -->
+    <div class="container">
+      <div class="marketing">
+        <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class=" p-3">
+              <h2 class="display-3" id="ebec_pyramid_title">Uma competição <strong>internacional</strong></h2>
+            </div>
           </div>
         </div>
-      </div>
-  </div>
+    </div>
 
-  <!-- EBEC Explanation -->
-    <div class="row featurette d-flex align-items-center justify-content-center" >
-      <div class="d-flex justify-content-center col-md-5 order-md-1" id="col-pyramid">
-        <!-- Tab navs -->
-        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <!-- EBEC Explanation -->
+      <div class="row featurette d-flex align-items-center justify-content-center" id="ebec_explanation">
+        <div class="d-flex justify-content-center col-md-5 order-md-1" id="col-pyramid">
+          <!-- Tab navs -->
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-          <button
-            class="nav-link"
-            id="v-pills-home-tab"
-            data-bs-toggle="pill"
-            href="#v-pills-home"
-            role="tab"
-            aria-controls="v-pills-home"
-            aria-selected="true"
-            > <img src="img/pyramid/pyramid_FR.png" width="100%" alt=""> </button
-          >
-          <button
-            class="nav-link"
-            id="v-pills-profile-tab"
-            data-bs-toggle="pill"
-            href="#v-pills-profile"
-            role="tab"
-            aria-controls="v-pills-profile"
-            aria-selected="false"
-            > <img src="img/pyramid/pyramid_NRR.png" width="100%" alt=""> </button
-          >
-          <button
-            class="nav-link active"
-            id="v-pills-messages-tab"
-            data-bs-toggle="pill"
-            href="#v-pills-messages"
-            role="tab"
-            aria-controls="v-pills-messages"
-            aria-selected="false"
-            > <img src="img/pyramid/pyramid_LR.png" width="100%" alt=""> </button
-          >
+            <button
+              class="nav-link"
+              id="v-pills-home-tab"
+              data-bs-toggle="pill"
+              href="#v-pills-home"
+              role="tab"
+              aria-controls="v-pills-home"
+              aria-selected="true"
+              > <img src="img/pyramid/pyramid_FR.png" id="img_FR" width="100%" alt=""> </button
+            >
+            <button
+              class="nav-link"
+              id="v-pills-profile-tab"
+              data-bs-toggle="pill"
+              href="#v-pills-profile"
+              role="tab"
+              aria-controls="v-pills-profile"
+              aria-selected="false"
+              > <img src="img/pyramid/pyramid_NRR.png" id="img_NRR" width="100%" alt=""> </button
+            >
+            <button
+              class="nav-link active"
+              id="v-pills-messages-tab"
+              data-bs-toggle="pill"
+              href="#v-pills-messages"
+              role="tab"
+              aria-controls="v-pills-messages"
+              aria-selected="false"
+              > <img src="img/pyramid/pyramid_LR.png" id="img_NRR" width="100%" alt=""> </button
+            >
+          </div>
+          <!-- Tab navs -->
         </div>
-        <!-- Tab navs -->
-      </div>
 
-      <div class="col-md-7 order-md-2" id="text-pyramid">
-        <!-- Tab content -->
-        <div class="tab-content" id="v-pills-tabContent">
-          <div
-            class="tab-pane fade"
-            id="v-pills-home"
-            role="tabpanel"
-            aria-labelledby="v-pills-home-tab"
-          >
-            <h2 class="display-5">EBEC Final</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cu pidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-7 order-md-2" id="text-pyramid">
+          <!-- Tab content -->
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <h2 class="display-5">EBEC Final</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+            <h2 class="display-5">EBEC Iberia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+            <h2 class="display-5">EBEC Coimbra</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-profile"
-            role="tabpanel"
-            aria-labelledby="v-pills-profile-tab"
-          >
-          <h2 class="display-5">EBEC Iberia</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div
-            class="tab-pane fade show active"
-            id="v-pills-messages"
-            role="tabpanel"
-            aria-labelledby="v-pills-messages-tab"
-          >
-          <h2 class="display-5">EBEC Coimbra</h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+          <!-- Tab content -->
         </div>
-        <!-- Tab content -->
       </div>
     </div>
-  </div>
-
+  </section>
 
   <!-- =========================== CATEGORIES ================================ -->
 
+<section id="categories">
   <!-- Title -->
   <div class="container">
 
@@ -220,7 +201,7 @@
       <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
         <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class=" p-3">
-            <h2 class="display-3">Title</h2>
+            <h2 class="display-3" id="categories_title">Escolhe a tua <strong>categoria</strong></h2>
           </div>
         </div>
       </div>
@@ -228,235 +209,241 @@
 
   <!-- Categories -->
   <div class="d-lg-flex flex-sm-equal w-100 my-sm-3 ps-sm-3">
-    <div class="bg-dark me-sm-3 pt-3 px-3 pt-sm-5 px-sm-5 text-center text-white overflow-hidden">
+    <div class="me-sm-3 pt-3 px-3 pt-sm-5 px-sm-5 text-center text-white overflow-hidden" id="case_study">
       <div class="row">
-      <div class="bg-light shadow-sm mx-auto order-1 order-lg-2" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-dark shadow-sm mx-auto order-1 order-lg-2" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       <div class="my-3 py-3 order-2 order-lg-1">
-        <h2 class="display-5">Case Study</h2>
+        <h2 class="display-5" id="case_study_title">Case Study</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
     </div>
     </div>
-    <div class="bg-dark me-sm-3 pt-3 px-3 pt-sm-5 px-sm-5 text-center text-white overflow-hidden">
+    <div class="me-sm-3 pt-3 px-3 pt-sm-5 px-sm-5 text-center text-white overflow-hidden" id="innovative_design">
       <div class ="row">
       <div class="my-3 py-3 order-2 order-lg-2">
-        <h2 class="display-5">Innovative Design</h2>
+        <h2 class="display-5" id="innovative_design_title">Innovative Design</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-      <div class="bg-light shadow-sm mx-auto order-1 order-lg-1" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="bg-dark shadow-sm mx-auto order-1 order-lg-1" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
   </div>
   </div>
 
   </div>
+  </section>
 
   <!-- =============================== TBEC ================================== -->
 
   <!-- ============================ TIMETABLE ================================ -->
+  <section id="timetable">
   <div class="container">
     <!-- Title -->
     <div class="marketing">
       <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
         <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class=" p-3">
-            <h2 class="display-3">Horários</h2>
+            <h2 class="display-3"><strong>Atividades</strong><br> criadas a pensar em ti</h2>
           </div>
         </div>
       </div>
     </div>
     <!-- timetable -->
     <div class="row row-cols-auto g-5 justify-content-center">
-      <div class="col">
+      <div class="col" id="timetable_ebec">
         <div class="marketing">
           <div class=" d-flex flex-equal w-100 my-1 ps-3 text-center overflow-hidden p-3">
-                <h6 class="display-6">EBEC</h6>
+                <h6 class="display-6" id="timetable_ebec_title">EBEC</h6>
           </div>
         </div>
         <img class="img-fluid rounded-3 shadow border border-1 border-dark" src="img/timetables/timetable_EBEC.png">
       </div>
-      <div class="col">
+      <div class="col" id="timetable_tbec">
         <div class="marketing">
           <div class="d-flex flex-equal w-100 my-1 ps-3 text-center overflow-hidden p-3">
-            <h6 class="display-6">TBEC</h6>
+            <h6 class="display-6" id="timetable_tbec_title">TBEC</h6>
           </div>
         </div>
         <img class="img-fluid rounded-3 shadow border border-1 border-dark" src="img/timetables/timetable_TBEC.png">
       </div>
     </div>
   </div>
-
+  </section>
   <!-- ========================= PREVIOUS EDITIONS =========================== -->
 
   <!-- ============================== JURY =================================== -->
 
-  <div class="container">
-    <div class="marketing">
-      <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class=" p-3">
-            <h2 class="display-3">Juri</h2>
+  <section id="jury">
+    <div class="container">
+      <div class="marketing">
+        <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class=" p-3">
+              <h2 class="display-3" id="jury_title">Conhece o nosso <strong>júri</strong></h2>
+            </div>
           </div>
         </div>
-      </div>
-  <div class="row justify-content-center">
+    <div class="row justify-content-center">
 
-    <div class="col-lg-3 col-md-5 text-center">
-      <div class="hover1 position-relative">
-        <img src="img/team/CT/Patrícia Cruz.jpg" width="180" height="180" class="rounded-circle imagehover">
-        <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
-          <a href="https://www.linkedin.com/in/patriciacruz24/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+      <div class="col-lg-3 col-md-5 text-center">
+        <div class="hover1 position-relative">
+          <img src="img/team/CT/Patrícia Cruz.jpg" width="180" height="180" class="rounded-circle imagehover">
+          <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
+            <a href="https://www.linkedin.com/in/patriciacruz24/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+          </div>
+        </div>
+        <h2>Patrícia Cruz</h2>
+        <p>Organizadora Principal</p>
+        <div class="d-block d-lg-none mb-4">
+          <a href="https://www.linkedin.com/in/patriciacruz24/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
         </div>
       </div>
-      <h2>Patrícia Cruz</h2>
-      <p>Organizadora Principal</p>
-      <div class="d-block d-lg-none mb-4">
-        <a href="https://www.linkedin.com/in/patriciacruz24/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
-      </div>
-    </div>
 
-    <div class="col-lg-3 col-md-5 text-center">
-      <div class="hover1 position-relative">
-        <img src="img/team/CT/José Henriques.jpeg" width="180" height="180" class="rounded-circle imagehover">
-        <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
-          <a href="https://www.linkedin.com/in/josé-henriques-121123199/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+      <div class="col-lg-3 col-md-5 text-center">
+        <div class="hover1 position-relative">
+          <img src="img/team/CT/José Henriques.jpeg" width="180" height="180" class="rounded-circle imagehover">
+          <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
+            <a href="https://www.linkedin.com/in/josé-henriques-121123199/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+          </div>
+        </div>
+        <h2>José Henriques</h2>
+        <p>Secretário</p>
+        <div class="d-block d-lg-none mb-4">
+          <a href="https://www.linkedin.com/in/josé-henriques-121123199/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
         </div>
       </div>
-      <h2>José Henriques</h2>
-      <p>Secretário</p>
-      <div class="d-block d-lg-none mb-4">
-        <a href="https://www.linkedin.com/in/josé-henriques-121123199/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
-      </div>
-    </div>
 
-    <div class="col-lg-3 col-md-5 text-center">
-      <div class="hover1 position-relative">
-        <img src="img/team/CT/Tiago Narciso.jpg" width="180" height="180" class="rounded-circle imagehover">
-        <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
-          <a href="https://www.linkedin.com/in/tiago-narciso/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+      <div class="col-lg-3 col-md-5 text-center">
+        <div class="hover1 position-relative">
+          <img src="img/team/CT/Tiago Narciso.jpg" width="180" height="180" class="rounded-circle imagehover">
+          <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
+            <a href="https://www.linkedin.com/in/tiago-narciso/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+          </div>
+        </div>
+        <h2>Tiago Narciso</h2>
+        <p>Responsável de Conteúdo Académico</p>
+        <div class="d-block d-lg-none mb-4">
+          <a href="https://www.linkedin.com/in/tiago-narciso/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
         </div>
       </div>
-      <h2>Tiago Narciso</h2>
-      <p>Responsável de Conteúdo Académico</p>
-      <div class="d-block d-lg-none mb-4">
-        <a href="https://www.linkedin.com/in/tiago-narciso/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
-      </div>
-    </div>
 
-    <div class="col-lg-3 col-md-5 text-center">
-      <div class="hover1 position-relative">
-        <img src="img/team/CT/Beatriz Dias.jpg" width="180" height="180" class="rounded-circle imagehover">
-        <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
-          <a href="https://www.linkedin.com/in/maria-beatriz-dias/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+      <div class="col-lg-3 col-md-5 text-center">
+        <div class="hover1 position-relative">
+          <img src="img/team/CT/Beatriz Dias.jpg" width="180" height="180" class="rounded-circle imagehover">
+          <div class="hover2 position-absolute top-0 left-0 d-flex justify-content-center align-items-center w-100 h-100 fs-5" style="background: rgba(0,0,0,0);">
+            <a href="https://www.linkedin.com/in/maria-beatriz-dias/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo" alt=""></a>
+          </div>
+        </div>
+        <h2>Beatriz Dias</h2>
+        <p>Responsável de Tecnologias de Informação</p>
+        <div class="d-block d-lg-none mb-4">
+          <a href="https://www.linkedin.com/in/maria-beatriz-dias/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
         </div>
       </div>
-      <h2>Beatriz Dias</h2>
-      <p>Responsável de Tecnologias de Informação</p>
-      <div class="d-block d-lg-none mb-4">
-        <a href="https://www.linkedin.com/in/maria-beatriz-dias/" target="_blank"><img src="img/logos/linkedin.svg" class="linkedin_logo_small" alt=""></a>
-      </div>
-    </div>
 
+    </div>
   </div>
-</div>
-</div>
+  </div>
+  </section>
 
   <!-- ============================ PARTNERS ================================= -->
-  <div class="logo-list">
-      <div class="container">
+  <section id="partners">
+    <div class="logo-list">
+        <div class="container">
 
-        <!-- Title -->
-          <div class="marketing">
-            <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
-              <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div class="p-3">
-                  <h2 class="display-3">Title</h2>
+          <!-- Title -->
+            <div class="marketing">
+              <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+                <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                  <div class="p-3">
+                    <h2 class="display-3"><strong>Parceiros</strong> imperdíveis</h2>
+                  </div>
                 </div>
+              </div>
+          </div>
+
+            <h2 class="display-7 p-3">Patrocinado por</h2>
+            <!-- Topic Partners - Gold e Silver -->
+            <div class="row justify-content-center" id="topic_partners">
+                <div class="col-lg-3 col-md-4 col-sm-5 col-6">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-6">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-6">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+            </div>
+            <!-- Career Partners -->
+            <div class="row justify-content-center" id="career_partners">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                    <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+                </div>
+            </div>
+            <!-- Institutional Partners -->
+            <h2 class="display-7 p-3">Parceiros Institucionais</h2>
+            <div class="row justify-content-center" id="institutional_partners">
+              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+
+            </div>
+            <h2 class="display-7 p-3">Apoiado por</h2>
+            <!-- Promo Partners -->
+            <div class="row justify-content-center" id="promo_partners">
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 col-4">
+                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
               </div>
             </div>
         </div>
-
-          <h2 class="display-7 p-3">Powered by</h2>
-          <!-- Topic Partners - Gold e Silver -->
-          <div class="row topic_partners justify-content-center">
-              <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-5 col-6">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-          </div>
-          <!-- Career Partners -->
-          <div class="row career_partners justify-content-center">
-              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-              <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                  <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-              </div>
-          </div>
-          <!-- Institutional Partners -->
-          <h2 class="display-7 p-3">Institutional Partners</h2>
-          <div class="row institutional_partners justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-5">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-
-          </div>
-          <h2 class="display-7 p-3">Supported by</h2>
-          <!-- Promo Partners -->
-          <div class="row promo_partners justify-content-center">
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-            <div class="col-lg-1 col-md-2 col-sm-3 col-4">
-                <a href="#"><img src="img/logos/BEST_Original.svg" class="img-fluid" alt="BEST logo"></a>
-            </div>
-          </div>
-      </div>
-  </div>
+    </div>
+  </section>
 
   <!-- ============================== FAQS =================================== -->
-
+<section id="faqs">
     <!-- Title -->
     <div class="container">
       <div class="marketing">
         <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
           <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class=" p-3">
-              <h2 class="display-3">Title</h2>
+              <h2 class="display-3" id="faqs_title"> <strong>Ainda tens dúvidas?</strong> </h2>
             </div>
           </div>
         </div>
@@ -464,18 +451,20 @@
 
     <!-- FAQs -->
     <div class="accordion" id="accordionExample">
+
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             Accordion Item #1
           </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
       </div>
+
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -488,6 +477,7 @@
           </div>
         </div>
       </div>
+
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -500,6 +490,7 @@
           </div>
         </div>
       </div>
+
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -512,38 +503,122 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-    <!-- ================================ TEAM ================================= -->
-
-<div class="container">
-    <div class="px-4 py-5 my-5 text-center">
-      <div class="marketing">
-        <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
-          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class=" p-3">
-              <h2 class="display-3">Title</h2>
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Accordion Item #5
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
       </div>
 
-      <div class="mx-auto">
-        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a class="btn btn-primary btn-lg" href="team.html" role="button">Meet the team!</a>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Accordion Item #6
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
         </div>
       </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Accordion Item #7
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Accordion Item #8
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Accordion Item #9
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            Accordion Item #10
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+
     </div>
-</div>
+  </div>
+</section>
+
+    <!-- ================================ TEAM ================================= -->
+
+<section id="team">
+  <div class="container">
+      <div class="text-center">
+        <div class="marketing">
+          <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div class=" p-3">
+                <h2 class="display-3" id="team_title">Conhece a <strong>equipa</strong> por detrás do evento</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a class="btn btn-primary btn-lg" href="team.html" role="button" id="team_button">Meet the team!</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
     <!-- ========================== BEST COIMBRA ========================== -->
     <div class="container">
       <div class="marketing">
         <div class="d-md-flex flex-md-equal w-100 my-md-1 ps-md-3">
           <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class=" p-3">
-              <h2 class="display-3">Title</h2>
+              <h2 class="display-3">Conhece a nossa <strong>organização</strong></h2>
             </div>
           </div>
         </div>
