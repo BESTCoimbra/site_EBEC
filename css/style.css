@@ -1,11 +1,11 @@
 
 /* ================================= COMMON =============================== */
 
-
+/*
 * {
   border: 1px solid red;
 }
-
+*/
 
 .container {
   padding-left: 8%;
@@ -31,7 +31,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #jury h2 strong, #partners h2 strong, #team_complete h2 strong {
+#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #jury h2 strong, #partners h2 strong, #team_complete h2 strong, #team h2 strong {
   color: var(--orange-visualidentityorange);
 }
 
@@ -51,7 +51,7 @@ p {
   color: var(--black-offblack);
 }
 
-#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2 {
+#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2, #team h2 {
   color: var(--grey-visualidentitygrey);
 }
 
@@ -248,3 +248,29 @@ p {
    opacity: 0.3;
    transition: 300ms;
  }
+
+ #team .btn-primary {
+     text-align: center;
+     background-color: var(--orange-visualidentityorange);
+     border-width: 2px;
+     border-color: var(--orange-visualidentityorange);
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 2;
+     font-family: 'Roboto Slab', sans-serif;
+     font-size: 1.2rem;
+     box-shadow: none !important;
+ }
+ #team .btn-primary:hover {
+     color: var(--orange-visualidentityorange);
+     border-color: var(--orange-visualidentityorange);
+     border-width: 2px;
+     background-color: #ffffff ;
+
+  }
+  #team .btn-primary:focus {
+     background-color: #ffffff !important;
+     border-color: #ff8427;
+     box-shadow: none !important;
+     color: #ff8427;
+  }
