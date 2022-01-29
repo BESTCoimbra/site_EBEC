@@ -1,11 +1,11 @@
 
 /* ================================= COMMON =============================== */
 
-/*
+
 * {
   border: 1px solid red;
 }
-*/
+
 
 .container {
   padding-left: 8%;
@@ -31,7 +31,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #jury h2 strong, #partners h2 strong, #team_complete h2 strong, #team h2 strong {
+#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #previouseditions h2 strong, #jury h2 strong, #partners h2 strong, #team_complete h2 strong, #team h2 strong, #bestcoimbra_title strong {
   color: var(--orange-visualidentityorange);
 }
 
@@ -51,7 +51,7 @@ p {
   color: var(--black-offblack);
 }
 
-#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2, #team h2 {
+#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2, #team h2, #bestcoimbra_title {
   color: var(--grey-visualidentitygrey);
 }
 
@@ -182,6 +182,72 @@ p {
    color: var(--black-offblack);
  }
 
+ @media (min-width: 992px) {
+   #case_study {
+     width: 50%;
+   }
+   #innovative_design {
+     width: 50%;
+   }
+  }
+
+ /* =========================== PREVIOUS EDITIONS ============================ */
+
+ #previouseditions .carousel {
+   margin-bottom: 0rem;
+ }
+
+ #previouseditions img {
+   object-fit: cover;
+ }
+
+ #previouseditions img, #previouseditions .carousel-inner {
+   height: 400px;
+ }
+
+ #previous_2 {
+   object-position: right bottom;
+ }
+
+ #previous_6 {
+   object-position: center bottom;
+ }
+
+/* 425px */
+
+
+
+ @media (min-width: 992px) {
+
+/*
+   #previous_9 {
+     object-position: left bottom;
+   }
+
+   #previous_10 {
+     object-position: left top;
+   }
+   */
+ }
+
+ @media (min-width: 768px) {
+
+   #previouseditions img, #previouseditions .carousel-inner {
+     height: 580px;
+   }
+
+
+   #previous_1 {
+     object-position: center bottom;
+   }
+
+   #previous_10 {
+     object-position: right top;
+   }
+
+ }
+
+
  /* =============================== PARTNERS ================================= */
 
  .logo-list {
@@ -274,3 +340,15 @@ p {
      box-shadow: none !important;
      color: #ff8427;
   }
+
+#team img {
+  width: 50px;
+  height: 50px;;
+  padding: 0px;
+  margin: 1px;
+  opacity: 0.4;
+}
+
+#team_row {
+  height: 50px;
+}
