@@ -201,50 +201,16 @@ p {
    object-fit: cover;
  }
 
- #previouseditions img, #previouseditions .carousel-inner {
-   height: 400px;
- }
-
- #previous_2 {
-   object-position: right bottom;
- }
-
- #previous_6 {
+ #previous_1 {
    object-position: center bottom;
  }
 
-/* 425px */
-
-
-
- @media (min-width: 992px) {
-
-/*
-   #previous_9 {
-     object-position: left bottom;
-   }
-
-   #previous_10 {
-     object-position: left top;
-   }
-   */
+ #previous_10 {
+   object-position: right top;
  }
 
- @media (min-width: 768px) {
-
-   #previouseditions img, #previouseditions .carousel-inner {
-     height: 580px;
-   }
-
-
-   #previous_1 {
-     object-position: center bottom;
-   }
-
-   #previous_10 {
-     object-position: right top;
-   }
-
+ #previous_6 {
+   object-position: right bottom;
  }
 
 
