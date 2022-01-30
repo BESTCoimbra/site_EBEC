@@ -1,11 +1,11 @@
 
 /* ================================= COMMON =============================== */
 
-
+/*
 * {
   border: px solid red;
 }
-
+*/
 
 .container {
   padding-left: 8%;
@@ -343,6 +343,11 @@ a{
    opacity: 0.3;
    transition: 300ms;
  }
+
+.team-position {
+  margin-bottom: 0.2rem !important;
+  font-size: 1.1rem !important;
+}
 
  #team .btn-primary {
      text-align: center;
