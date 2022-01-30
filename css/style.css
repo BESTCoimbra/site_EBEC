@@ -3,7 +3,7 @@
 
 
 * {
-  border: 1px solid red;
+  border: px solid red;
 }
 
 
@@ -64,7 +64,53 @@ p {
 }
 
 /* ======================= HEADER AND STARTING SCREEN ======================= */
+a{
+  text-decoration: none;
+  color: var(--grey-visualidentitygrey);
 
+}
+
+#pt{
+  margin-left: 7 px;
+}
+
+#pt:hover{
+  color: black;
+}
+
+#en:hover{
+  color: black;
+}
+#barra{
+  cursor: none;
+}
+
+.dropdown-menu{
+  background-color:#ffffff;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: var(--orange-visualidentityorange);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.dropdown-item{
+  color: var(--orange-visualidentityorange);
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color:var(--orange-visualidentityorange) ;
+  color: #ffffff;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+#reulamentodrop{
+  background-color: #ffffff;
+  color: orange;
+  border-width: 1px;
+  border-color: black;
+}
 #header ul, #header li, #header a, #navbarNav {
     text-align: center;
 }
@@ -129,6 +175,23 @@ p {
   background-color: #808080;
   z-index: -1;
   opacity: 65%;
+ }
+
+ @media (max-width: 991.98px){
+  #header .btn-primary {
+    text-align: center;
+    background-color: var(--orange-visualidentityorange);
+    border-width: 2px;
+    border-color: var(--orange-visualidentityorange);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2rem;
+    box-shadow: none !important;
+    margin-top: 3px;
+    margin-bottom: 12px;
+
  }
 /* ============================= EBEC PYRAMID =============================== */
 
