@@ -1,11 +1,11 @@
 
 /* ================================= COMMON =============================== */
 
-
+/*
 * {
   border: 1px solid red;
 }
-
+*/
 .section_title {
   margin-top: 90px;
 }
@@ -179,6 +179,13 @@ a {
   z-index: -1;
   opacity: 65%;
  }
+
+  @media (max-width: 991.98px) {
+    #header .btn-primary {
+      margin-top: 3px;
+      margin-bottom: 12px;
+    }
+  }
 /* ============================= EBEC PYRAMID =============================== */
 
 #v-pills-tab {
@@ -344,7 +351,6 @@ a {
  /* =============================== PARTNERS ================================= */
 
  .logo-list {
-     padding: 20px 0;
      text-align: center;
  }
 
