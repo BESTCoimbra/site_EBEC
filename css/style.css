@@ -37,7 +37,7 @@ p {
   color: var(--orange-visualidentityorange);
 }
 
-#faqs_title {
+#faq_title {
   color: var(--white-offwhite);
 }
 
@@ -61,7 +61,7 @@ p {
   padding-bottom: 2rem;
 }
 
-#faqs .container {
+#faq .container {
   padding-bottom: 3rem;
 }
 
@@ -364,22 +364,22 @@ a {
    }
  }
 
- /* ================================= FAQS =================================== */
+ /* ================================= faq =================================== */
 
- #faqs {
+ #faq {
    background-color: var(--black-offblack);
  }
 
- #faqs .accordion-button, #faqs .accordion-body {
+ #faq .accordion-button, #faq .accordion-body {
    background-color: var(--white-offwhite);
  }
 
- #faqs .accordion-button:not(.collapsed) {
+ #faq .accordion-button:not(.collapsed) {
      color: var(--black-offblack);
      background-color: var(--orange-visualidentityorange);
  }
 
- #faqs .accordion-button:focus {
+ #faq .accordion-button:focus {
      z-index: 3;
      border-color: var(--orange-visualidentityorange);
    }
