@@ -1,12 +1,14 @@
 
 /* ================================= COMMON =============================== */
 
-/*
+
 * {
   border: 1px solid red;
 }
-*/
 
+.section_title {
+  margin-top: 90px;
+}
 .container {
   padding-left: 8%;
   padding-right: 8%;
@@ -248,16 +250,94 @@ a {
    object-fit: cover;
  }
 
- #previous_1 {
+@media (min-width: 992px) {
+
+  .carousel-item img {
+      position: absolute;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+    }
+  .previous_1 img {
+     object-position: center bottom;
+   }
+
+   .previous_10 img {
+     object-position: right top;
+   }
+
+   .previous_6 img {
+     object-position: right bottom;
+   }
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .carousel .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-item img {
+      position: absolute;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      height: 400px;
+  }
+
+  .previous_1 img, .previous_2 img {
    object-position: center bottom;
+   }
+
+   .previous_3 img, .previous_6 img {
+     object-position: 30% bottom;
+   }
+
+   .previous_5 img {
+     object-position: 60% bottom;
+   }
+
+   .previous_6 img, .previous_10 img {
+     object-position: left bottom;
+   }
+
  }
 
- #previous_10 {
-   object-position: right top;
- }
+ @media (max-width: 575.98px) {
+   .carousel .carousel-item {
+     height: 300px;
+   }
 
- #previous_6 {
-   object-position: right bottom;
+   .carousel-item img {
+       position: absolute;
+       height: 100%;
+       max-width: 100%;
+       object-fit: cover;
+       top: 0;
+       left: 0;
+       height: 300px;
+   }
+
+   .previous_1 img, .previous_2 img {
+    object-position: center bottom;
+    }
+
+    .previous_3 img, .previous_6 img {
+      object-position: 30% bottom;
+    }
+
+    .previous_5 img {
+      object-position: 60% bottom;
+    }
+
+    .previous_6 img, .previous_10 img {
+      object-position: left bottom;
+    }
+
  }
 
 
