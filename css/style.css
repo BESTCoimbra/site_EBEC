@@ -3,7 +3,7 @@
 
 /*
 * {
-  border: px solid red;
+  border: 1px solid red;
 }
 */
 
@@ -64,10 +64,10 @@ p {
 }
 
 /* ======================= HEADER AND STARTING SCREEN ======================= */
-a{
+
+a {
   text-decoration: none;
   color: var(--grey-visualidentitygrey);
-
 }
 
 #pt{
@@ -111,6 +111,7 @@ a{
   border-width: 1px;
   border-color: black;
 }
+
 #header ul, #header li, #header a, #navbarNav {
     text-align: center;
 }
@@ -175,23 +176,6 @@ a{
   background-color: #808080;
   z-index: -1;
   opacity: 65%;
- }
-
- @media (max-width: 991.98px){
-  #header .btn-primary {
-    text-align: center;
-    background-color: var(--orange-visualidentityorange);
-    border-width: 2px;
-    border-color: var(--orange-visualidentityorange);
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 2;
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.2rem;
-    box-shadow: none !important;
-    margin-top: 3px;
-    margin-bottom: 12px;
-
  }
 /* ============================= EBEC PYRAMID =============================== */
 
@@ -303,7 +287,7 @@ a{
  /* ================================= FAQS =================================== */
 
  #faqs {
-   background-color: var(--grey-visualidentitygrey);
+   background-color: var(--black-offblack);
  }
 
  #faqs .accordion-button, #faqs .accordion-body {
@@ -312,12 +296,12 @@ a{
 
  #faqs .accordion-button:not(.collapsed) {
      color: var(--black-offblack);
-     background-color: var(--orange-lightorange);
+     background-color: var(--orange-visualidentityorange);
  }
 
  #faqs .accordion-button:focus {
      z-index: 3;
-     border-color: var(--orange-lightorange);
+     border-color: var(--orange-visualidentityorange);
    }
 
  /* ================================= TEAM =================================== */
