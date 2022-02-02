@@ -370,7 +370,7 @@ a {
    }
  }
 
- /* ================================= faq =================================== */
+ /* ================================= FAQ =================================== */
 
  #faq {
    background-color: var(--black-offblack);
@@ -456,3 +456,14 @@ a {
 #team_row {
   height: 50px;
 }
+
+ @media (max-width: 575.98px) {
+   #team p {
+     font-size: 1rem;
+   }
+ }
+ @media (min-width: 576px) {
+   #team p {
+     font-size: 1.25rem;
+   }
+ }
