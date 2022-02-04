@@ -241,9 +241,11 @@ a {
  @media (min-width: 992px) {
    #case_study {
      width: 50%;
+     height: auto;
    }
    #innovative_design {
      width: 50%;
+     height: auto;
    }
   }
 
