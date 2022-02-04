@@ -20,7 +20,7 @@ body {
   --orange-lightorange:#F3BC6A;
   --orange-visualidentityorange:#EEA225;
   --grey-visualidentitygrey:#666666;
-  --black-offblack:#222221;
+  --black-offblack:#0D0D0D;
   background-color: var(--white-offwhite);
 }
 
@@ -33,7 +33,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #previouseditions h2 strong, #jury h2 strong, #partners h2 strong, #team_complete h2 strong, #team h2 strong, #bestcoimbra_title strong {
+#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #previouseditions h2 strong, #jury_section h2 strong, #partners_section h2 strong, #team_complete h2 strong, #team_section h2 strong, #bestcoimbra_title strong {
   color: var(--orange-visualidentityorange);
 }
 
@@ -41,7 +41,7 @@ p {
   color: var(--white-offwhite);
 }
 
-#text-pyramid p, #jury p {
+#text-pyramid p, #jury_section p {
   color: var(--black-offblack);
 }
 
@@ -53,15 +53,15 @@ p {
   color: var(--black-offblack);
 }
 
-#ebec_pyramid h2, #categories_title, #timetable h2, #jury h2, #partners h2, #team_complete h2, #team h2, #bestcoimbra_title {
+#ebec_pyramid h2, #categories_title, #timetable h2, #jury_section h2, #partners_section h2, #team_complete h2, #team_section h2, #bestcoimbra_title {
   color: var(--grey-visualidentitygrey);
 }
 
-#ebec_pyramid .container, #categories .container, #partners .container {
+#ebec_pyramid .container, #categories_section .container, #partners_section .container {
   padding-bottom: 2rem;
 }
 
-#faq .container {
+#faq_section .container {
   padding-bottom: 3rem;
 }
 
@@ -222,7 +222,7 @@ a {
 
  /* ============================== CATEGORIES ================================ */
 
- #categories {
+ #categories_section {
    background-color: var(--orange-lightorange);
  }
 
@@ -234,7 +234,7 @@ a {
    background-color: var(--white-offwhite);
  }
 
- #categories p {
+ #categories_section p {
    color: var(--black-offblack);
  }
 
@@ -374,20 +374,20 @@ a {
 
  /* ================================= FAQ =================================== */
 
- #faq {
+ #faq_section {
    background-color: var(--black-offblack);
  }
 
- #faq .accordion-button, #faq .accordion-body {
+ #faq_section .accordion-button, #faq_section .accordion-body {
    background-color: var(--white-offwhite);
  }
 
- #faq .accordion-button:not(.collapsed) {
+ #faq_section .accordion-button:not(.collapsed) {
      color: var(--black-offblack);
      background-color: var(--orange-visualidentityorange);
  }
 
- #faq .accordion-button:focus {
+ #faq_section .accordion-button:focus {
      z-index: 3;
      border-color: var(--orange-visualidentityorange);
    }
@@ -421,7 +421,7 @@ a {
   font-size: 1.1rem !important;
 }
 
- #team .btn-primary {
+ #team_section .btn-primary {
      text-align: center;
      background-color: var(--orange-visualidentityorange);
      border-width: 2px;
@@ -433,21 +433,21 @@ a {
      font-size: 1.2rem;
      box-shadow: none !important;
  }
- #team .btn-primary:hover {
+ #team_section .btn-primary:hover {
      color: var(--orange-visualidentityorange);
      border-color: var(--orange-visualidentityorange);
      border-width: 2px;
      background-color: #ffffff ;
 
   }
-  #team .btn-primary:focus {
+  #team_section .btn-primary:focus {
      background-color: #ffffff !important;
      border-color: #ff8427;
      box-shadow: none !important;
      color: #ff8427;
   }
 
-#team img {
+#team_section img {
   width: 50px;
   height: 50px;;
   padding: 0px;
@@ -460,12 +460,16 @@ a {
 }
 
  @media (max-width: 575.98px) {
-   #team p {
+   #team_section p {
      font-size: 1rem;
    }
  }
  @media (min-width: 576px) {
-   #team p {
+   #team_section p {
      font-size: 1.25rem;
    }
  }
+
+#team_complete {
+  margin-top: 70px;
+}
