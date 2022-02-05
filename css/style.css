@@ -293,7 +293,7 @@ a {
 
 @media (min-width: 992px) {
 
-  .carousel-item img {
+   #previouseditions .carousel-item img {
       position: absolute;
       height: 100%;
       max-width: 100%;
@@ -316,11 +316,11 @@ a {
 
 
 @media (min-width: 576px) and (max-width: 991.98px) {
-  .carousel .carousel-item {
+   #previouseditions .carousel .carousel-item {
     height: 400px;
   }
 
-  .carousel-item img {
+   #previouseditions .carousel-item img {
       position: absolute;
       height: 100%;
       max-width: 100%;
@@ -349,11 +349,11 @@ a {
  }
 
  @media (max-width: 575.98px) {
-   .carousel .carousel-item {
+    #previouseditions .carousel .carousel-item {
      height: 300px;
    }
 
-   .carousel-item img {
+    #previouseditions .carousel-item img {
        position: absolute;
        height: 100%;
        max-width: 100%;
@@ -517,4 +517,23 @@ a {
 
 #team_complete {
   margin-top: 70px;
+}
+
+/* JURY */
+
+#jury_section .carousel-item > img {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    width: 180px;
+    height: 180px;
+    min-width: 0px;
+}
+
+#jury_section .carousel-item {
+    height: 400px;
+}
+
+#jury_section .carousel {
+    margin-bottom: 0;
 }
