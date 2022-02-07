@@ -48,7 +48,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #previouseditions h2 strong, #jury_section h2 strong, #partners_section h2 strong, #team_complete h2 strong, #team_section h2 strong, #bestcoimbra_title strong {
+#ebec_pyramid h2 strong, #case_study_title, #innovative_design_title, #timetable h2 strong, #timetable_ebec_title, #timetable_tbec_title, #previouseditions h2 strong, #jury_section h2 strong, #partners_section h2 strong, #team_complete h2 strong, #team_section h2 strong, #bestcoimbra_title strong, #tbec_title strong {
   color: var(--orange-visualidentityorange);
 }
 
@@ -68,7 +68,7 @@ p {
   color: var(--black-offblack);
 }
 
-#ebec_pyramid h2, #categories_title, #timetable h2, #jury_section h2, #partners_section h2, #team_complete h2, #team_section h2, #bestcoimbra_title {
+#ebec_pyramid h2, #categories_title, #timetable h2, #jury_section h2, #partners_section h2, #team_complete h2, #team_section h2, #bestcoimbra_title, #tbec_title {
   color: var(--grey-visualidentitygrey);
 }
 
@@ -188,12 +188,13 @@ a {
 }
 
 #header .hero {
- background-image: url('../img/photos/fotoheader.jpg');
+ background-image: url('../img/photos/4_2.png');
  background-position: center;
  background-size: cover;
  background-attachment: fixed;
  position: relative;
  z-index: 2;
+ top: px;
 }
 
 #header .hero::after {
@@ -205,7 +206,7 @@ a {
   left: 0;
   background-color: #808080;
   z-index: -1;
-  opacity: 65%;
+  opacity: 75%;
  }
 
   @media (max-width: 991.98px) {
