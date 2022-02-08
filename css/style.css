@@ -7,6 +7,56 @@
 }
 */
 
+/*===== Preloader =====*/
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.loader img {
+  width: 17%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px),
+(min-width: 992px) and (max-width: 1199.98px) {
+  .loader img {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px),
+(max-width: 767.98px) {
+  .loader img {
+    width: 25%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .loader img {
+    width: 45%;
+  }
+}
+
+.disappear {
+  animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
