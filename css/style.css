@@ -98,6 +98,9 @@ p {
   background-color: var(--orange-lightorange);
 }
 
+#partners_section {
+  background-color: var(--bs-white);
+}
 /*============================== PRELOADER ==================================*/
 
 .loader {
